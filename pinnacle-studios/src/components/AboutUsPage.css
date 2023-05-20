@@ -1,0 +1,198 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #fff;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+}
+
+.aboutUsPage-section {
+    display: flex;
+    color: #000000;
+    min-height: 500px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutUsPage-container {
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+}
+
+.aboutUsPage-content1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #034A87 10.32%, #481C69 82.09%);
+}
+
+.aboutUsPage-content1 .left-column {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 8%;
+    height: 50vh;
+}
+
+.aboutUsPage-content1 .left-column .heading {
+    width: 100%;
+}
+
+.aboutUsPage-content1 .left-column .content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutUsPage-content1 .left-column h1{
+    font-size: 6.2vw;
+    color: white;
+    font-weight: 500;
+    font-family: 'Josefin Sans';
+    width: 100%;
+    text-align: start;
+    margin: 0;
+}
+
+.aboutUsPage-content1 .left-column p {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 164%;
+    text-align: start;
+    width: 95%;
+    margin: 0;
+}
+
+.aboutUsPage-content1 .left-column #one {
+    margin: 3vw 0vw 2vw 0vw;
+}
+
+.aboutUsPage-content1 .left-column #two {
+    margin-bottom: 2vw;
+}
+
+
+
+.aboutUsPage-content1 .right-column {
+    width: 90%;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.aboutUsPage-Navbar {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 0vw 5vw 0vw 8vw;
+    background-color: white;
+}
+
+.aboutUsPage-Navbar .logo {
+    padding-left: 0vw;
+}
+
+.aboutUsPage-content2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutUsPage-content2 .top-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUsPage-content2 .top-side h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 124.5%;
+    color: #3D3B3B;
+}
+
+.aboutUsPage-content2 .top-side p {
+    margin: 0;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 138.5%;
+    text-align: center;
+    color: #3D3B3B;
+    width: 73%;
+}
+
+.aboutUsPage-content2 .bot-side {
+    display: flex;
+    width: 90%;
+}
+
+.aboutUsPage-content2 .bot-side .sections {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUsPage-content2 .bot-side .sections h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 124.5%;
+    margin: 0;
+    color: #3D3B3B;
+}
+
+.aboutUsPage-content2 .bot-side .sections p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9vw;
+    line-height: 138.5%;
+
+    text-align: center;
+    
+    color: #3D3B3B;
+
+    margin-top: 2vw;
+
+    width: 65%;
+}
+
+.aboutUsPage-content2 .bot-side .sections svg{
+    width: 10vw;
+    height: 9vw;
+}
+
+.aboutUsPage-content1 .right-column img {
+    width: 41vw;
+}
+

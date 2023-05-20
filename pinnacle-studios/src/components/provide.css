@@ -1,0 +1,108 @@
+.provide-section {
+    display: flex;
+    color: #000000;
+    min-height: 500px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 10vw 0px;
+}
+
+.provide-container {
+    height: 110vh;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, #034A87 10.32%, #481C69 82.09%);
+}
+
+.provide-content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.provide-content h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    width: 70%;
+    line-height: 124.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.provide-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0px;
+    width: 55vw;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+    background: white;
+    border-radius: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    width: 3vw;
+    height: 3vw;
+}
+
+.icons h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    color: white;
+    line-height: 124.5%;
+}
+
+.provide-content button{
+    height: 8vh;
+    width: 13vw;
+    background: white;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 3vw;
+    COLOR: black;
+    font-size: 1.4vw;
+    font-family: 'Josefin Sans';
+    position: relative;
+    transition: all 400ms ease-in;
+    top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provide-content button h1 {
+    background: linear-gradient(90deg, #044986 2.52%, #481C69 86.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.3vw;
+    letter-spacing: 0.05vw;
+    font-weight: 600;
+
+}

@@ -1,0 +1,169 @@
+.Hero-section{
+    position: relative;
+    display: flex;
+    color: #000000;
+    min-height: 500px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Hero-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 6vw;
+}
+
+.Hero-content .logo {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+}
+
+.Hero-content .logo a {
+    position: relative;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8em;
+    line-height: 128px;
+    background-color: #000;
+
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-left: auto;
+
+    text-decoration: none;
+}
+
+.Hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-size: cover;
+    background-image: url("../assets/heroBackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 5%;
+}
+
+.Hero-container {
+    position: absolute;
+    margin: auto 0 auto 40px;
+    height: 100vh;
+    max-width: 2300px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Hero-container img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.Hero-content h1{
+    position: relative;
+
+    width: 80%;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.5vw;
+    line-height: 8.5vw;
+
+    text-align: center;
+
+    background: linear-gradient(92.94deg, #064885 18.65%, #481C69 80.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.Hero-content h3 {
+    position: relative;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    top: -5vw;
+
+
+    color: #3D3B3B;
+
+}
+
+h5 {
+    position: relative;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 124.5%;
+
+
+    color: #000000;
+}
+
+.contact-us {
+
+    height: 8vh;
+    width: 13vw;
+    background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 3vw;
+    COLOR: white;
+    font-size: 1.4vw;
+    font-family: 'Josefin Sans';
+    top: -40px;
+    padding-top: 8px;
+    position: relative;
+    transition: all 400ms ease-in;
+
+}
+
+.contact-us:hover {
+    transform: translateY(-8px);
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 8px;
+    text-underline-position: from-font;
+}
+
+.you {
+    text-decoration-color: #253381;
+}
+
+.matter {
+    text-decoration-color: rebeccapurple;
+}
+
+.Hero-container svg {
+    position: absolute;
+    left: 80%;
+    top: 59.5%;
+    width: 19vw;
+    height: 19vw;
+}

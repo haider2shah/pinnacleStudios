@@ -1,0 +1,82 @@
+.business-section {
+    display: flex;
+    color: #000000;
+    min-height: 500px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2.5vw 0px;
+    margin-bottom: 15vw;
+    height: 100vh;
+}
+
+.business-container {
+    height: 100vh;
+    max-width: 2300px;
+    margin: auto;
+    display: flex;
+}
+
+.business-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.business-content .column-left  {
+    width: 47%;
+    height: 75vh;
+}
+
+
+.business-content .column-left .figure img {
+    height: 40vw;
+    width: 40vw;
+}
+
+.business-content .column-right {
+    width: 43%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.business-content .column-right h1 {
+    font-family: 'JOSEFIN SANS';
+    font-size: 3.6vw;
+    width: 40vw;
+    text-align: left;
+    color: #3D3B3B;
+    line-height: 4.5vw;
+}
+
+.business-content .column-right p {
+    font-family: 'Josefin Sans';
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 36vw;
+    text-align: left;
+    padding-bottom: 5vw;
+    line-height: 2vw;
+}
+
+.business-content .column-right .contact-us {
+    height: 8vh;
+    width: 13vw;
+    background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 3vw;
+    COLOR: white;
+    font-size: 1.4vw;
+    font-family: 'Josefin Sans';
+    top: -40px;
+    position: relative;
+    transition: all 400ms ease-in;
+}

@@ -1,0 +1,17 @@
+.footer-section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section h5 {
+    position: relative;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .7vw;
+    line-height: 124.5%;
+    color: #000000;
+}

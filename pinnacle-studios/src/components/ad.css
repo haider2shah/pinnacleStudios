@@ -1,0 +1,71 @@
+.ad-section {
+    display: flex;
+    color: #000000;
+    min-height: 500px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.ad-container {
+    height: 70vh;
+    max-width: 2300px;
+    margin: auto;
+    display: flex;
+}
+
+.ad-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+}
+
+.ad-content .left-column {
+    width: 50%;
+    position: absolute;
+    left: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-content .left-column h1 {
+    font-family: 'JOSEFIN SANS';
+    font-size: 3.6vw;
+    width: 37vw;
+    text-align: left;
+    color: #3D3B3B;
+    line-height: 4.5vw;
+}
+
+.ad-content .left-column p {
+    font-family: 'Josefin Sans';
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 36vw;
+    text-align: left;
+    padding-bottom: 5vw;
+    line-height: 2vw;
+}
+
+.ad-content .left-column button {
+    height: 8vh;
+    width: 13vw;
+    top: -2vh;
+}
+
+.ad-content .right-column{
+    width: 50%;
+    left: 46%;
+    position: absolute;
+}
+
+.ad-content .right-column svg {
+    width: 42vw;
+    height: 68vh;
+}
