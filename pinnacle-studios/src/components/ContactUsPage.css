@@ -58,3 +58,13 @@
 .form {
     padding: 20px;
 }
+
+.contact-us-form-heading {
+    font-size: 6.2vw;
+    color: white;
+    font-weight: 1000;
+    font-family: 'Josefin Sans';
+    width: 100%;
+    text-align: start;
+    margin: 0;
+}
