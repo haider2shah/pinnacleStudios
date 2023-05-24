@@ -11,7 +11,6 @@
 
 .aboutUs-container {
     height: 70vh;
-    max-width: 2300px;
     margin: auto;
     display: flex;
 }
@@ -23,19 +22,17 @@
     width: 100vw;
     height: 60vh;
     position: relative;
+    padding: 0vw 8vw 0vw 8vw;
 }
 
 .aboutUs-content .column-left{
     width: 50%;
-    position: absolute;
-    left: 3%;
+    width: 50%;
+    padding: 0vw 0vw 0vw 8vw;
 }
 
 .aboutUs-content .column-right {
     width: 50%;
-    left: 46%;
-    position: absolute;
-    top: 5%;
 }
 
 .aboutUs-section h1 {
@@ -43,7 +40,6 @@
     font-size: 3.6vw;
     width: 37vw;
     text-align: left;
-    padding: 0vw 1vw;
     color: #3D3B3B;
     line-height: 4.5vw;
 }
@@ -55,7 +51,6 @@
     font-weight: 400;
     width: 36vw;
     text-align: left;
-    padding: 0vw 1vw;
     padding-bottom: 5vw;
     line-height: 2vw;
 }
@@ -67,12 +62,11 @@
 }
 
 .aboutUs-content .button-container {
-    position: absolute;
-    top: 95%;
-    left: 1.5%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .aboutUs-section svg {
     width: 50vw;
-    height: 63vh;
+    height: 67vh;
 }

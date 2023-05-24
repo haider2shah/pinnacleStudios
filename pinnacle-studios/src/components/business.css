@@ -6,14 +6,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 2.5vw 0px;
-    margin-bottom: 15vw;
-    height: 100vh;
+    height: 83vh;
 }
 
 .business-container {
     height: 100vh;
-    max-width: 2300px;
     margin: auto;
     display: flex;
 }
@@ -28,23 +25,20 @@
 }
 
 .business-content .column-left  {
-    width: 47%;
-    height: 75vh;
+    height: 70vh;
+    width: 48%;
+    padding: 0vw 0vw 0vw 2.5vw;
 }
 
 
 .business-content .column-left .figure img {
     height: 40vw;
-    width: 40vw;
+    width: 38vw;
 }
 
 .business-content .column-right {
     width: 43%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    height: 65vh;
 }
 
 .business-content .column-right h1 {
@@ -79,4 +73,9 @@
     top: -40px;
     position: relative;
     transition: all 400ms ease-in;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
 }

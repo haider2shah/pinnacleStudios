@@ -12,7 +12,6 @@
 
 .services-container {
     height: 70vh;
-    max-width: 2300px;
     margin: auto;
     display: flex;
 }
@@ -114,7 +113,7 @@
     left: 37vw;
 }
 
-.fade-in-paragraph {
+.right-column .fade-in-paragraph {
     opacity: 0;
     transition: opacity 1s ease, margin 1s ease;
     text-align: left;
@@ -122,7 +121,7 @@
     margin: -1.6vw 0px 20px 0px;
 }
 
-.fade-in-paragraph.show {
+.right-column .fade-in-paragraph.show {
     opacity: 1;
     margin: -10px 0px 20px 0px;
 }

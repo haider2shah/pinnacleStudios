@@ -63,7 +63,7 @@
     position: absolute;
     margin: auto 0 auto 40px;
     height: 100vh;
-    max-width: 2300px;
+    width: 100%;
     padding: 0 80px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@
 
     font-family: 'Josefin Sans';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 6.5vw;
     line-height: 8.5vw;
 
@@ -119,7 +119,7 @@ h5 {
     font-weight: 400;
     font-size: 1vw;
     line-height: 124.5%;
-
+    cursor: pointer;
 
     color: #000000;
 }
@@ -134,7 +134,7 @@ h5 {
     COLOR: white;
     font-size: 1.4vw;
     font-family: 'Josefin Sans';
-    top: -40px;
+    top: -2vw;
     padding-top: 8px;
     position: relative;
     transition: all 400ms ease-in;
@@ -156,14 +156,27 @@ h5 {
     text-decoration-color: #253381;
 }
 
-.matter {
-    text-decoration-color: rebeccapurple;
+.matter::after {
+    position: absolute;
+    content: '';
+    height: .03vw;
+    bottom: 6px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
 }
 
-.Hero-container svg {
+.Hero-container .arrowSvg {
     position: absolute;
-    left: 80%;
-    top: 59.5%;
+    left: 60vw;
+    top: 30.6vw;
     width: 19vw;
     height: 19vw;
+}
+
+.headingSvg {
+    height: 27vw;
+    width: 67vw;
 }

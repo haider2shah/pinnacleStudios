@@ -12,7 +12,9 @@ const ad = () => {
                     <p>Effective design is not just about aesthetics - it's about understanding the needs of your audience
                          and crafting a compelling story that resonates with them, 
                          so they can become your ambassadors.</p>
-                    <button className='contact-us'>Contact Now</button>
+                    <div className='button-container'>
+                        <button className='contact-us'>Contact Now</button>
+                    </div>
                 </div>
                 <div className="right-column">
                     <div className="figure">

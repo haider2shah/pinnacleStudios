@@ -1,6 +1,7 @@
 import './Hero.css';
 import React from 'react';
 import {ReactComponent as Arrow} from '../assets/arrow.svg';
+import {ReactComponent as Heading} from '../assets/heroHeading.svg';
 import {Link} from 'react-router-dom';
 
 
@@ -10,9 +11,7 @@ const Hero = () => {
     <section className='Hero-section'>
         <div className='Hero-container'>
             <div className='Hero-content'>
-                <h1>Helping <span className='underline you'>you</span> design a 
-                    brand that <span className='underline matter'>matter</span>s.
-                </h1>
+                <Heading className='headingSvg'/>
                 <h3>A design studio for disruptive entrepreneurs</h3>
                 <Link to="/aboutuspage">
                     <button className='contact-us'>
@@ -20,9 +19,10 @@ const Hero = () => {
                     </button>
                 </Link>
                 
-
-                <h5>eXPLORe our services</h5>
-                <Arrow />
+                <Link to="/servicespage">
+                    <h5>Explore our services</h5>
+                </Link>
+                <Arrow className='arrowSvg'/>
             </div>
         </div>
     </section>

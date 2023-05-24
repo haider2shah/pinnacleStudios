@@ -63,6 +63,7 @@
     border-radius: 130px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1vw;
 }
 
 .icon svg {
@@ -76,6 +77,7 @@
     font-weight: 600;
     font-size: 1vw;
     color: white;
+    width: 8vw;
     line-height: 124.5%;
 }
 

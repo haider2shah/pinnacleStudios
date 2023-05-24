@@ -26,7 +26,7 @@ const AboutUsPage = () => {
                     <div className='aboutUsPage-content1'>
                         <div className="left-column">
                             <div className="heading">
-                                <h1>aBOUt us</h1>
+                                <h1>About us</h1>
                             </div>
                             <div className="content">
                                 <p id='one'>We are a team of highly professional designers and strategists on a 
@@ -54,7 +54,7 @@ const AboutUsPage = () => {
                 <div className="aboutUsPage-container">
                     <div className="aboutUsPage-content2">
                         <div className="top-side">
-                            <h1>Why pINNACLe sTUDIOs?</h1>
+                            <h1>Why Pinnacle Studios?</h1>
                             <p>We are fascinated with the power of understanding the human psychology 
                                 and consumer behavior, and we use it in our design process. 
                                 We don't design copycat websites, we design brands. </p>
@@ -62,7 +62,7 @@ const AboutUsPage = () => {
                         <div className="bot-side">
                             <div className="sections">
                                 <div className="icons">
-                                    <Ux />
+                                    <Ux className='UX'/>
                                 </div>
                                 <h1>UX Design</h1>
                                 <p>Our website design process is meticulously crafted 

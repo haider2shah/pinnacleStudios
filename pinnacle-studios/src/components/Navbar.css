@@ -13,22 +13,21 @@ nav {
     align-items: center;
     max-width: 100%;
     justify-content: space-between;
-    padding: 0vw 5vw 0vw 5vw;
-}
-
-.scrolled {
+    padding: 0vw 8vw 0vw 8vw;
     background-color: white;
+    box-shadow: 0 -40px 70px 0px gray;
+    height: 8vh;
 }
 
 .navbar .logo{
-    padding-left: 4vw;
+    padding-top: .5vw;
 }
 
 .navbar .logo a {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: .8em;
+    font-size: .8vw;
     line-height: 128px;
     background-color: #000;
 
@@ -46,8 +45,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 5.5em;
-    height: 3.9em;
+    width: 4.5em;
+    height: 3.2em;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -56,7 +55,7 @@ nav {
 
 .hamburger {
     width: 100%;
-    height: 10px;
+    height: .4vw;
     background-color: #000;
     transition: all 500ms ease-in-out;
     border-radius: 60px;
@@ -78,7 +77,7 @@ nav {
 }
 
 .x-show .hamburger:nth-child(3) {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translate(-5px,5px);
     transform-origin: bottom left;
     width: 64px;
     transition: all 500ms ease-in-out;
@@ -115,7 +114,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    width: 88%;
+    width: 83%;
     text-align: center;
     transition: all 0.3s ease;
     margin: 0;
@@ -157,4 +156,18 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+.contactPlusNav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactPlusNav .button-container button {
+    height: 5vh;
+    width: 9vw;
+    font-size: 1vw;
+    top: 0px;
 }

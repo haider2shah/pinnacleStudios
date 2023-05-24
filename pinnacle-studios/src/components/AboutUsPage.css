@@ -59,7 +59,7 @@
 .aboutUsPage-content1 .left-column h1{
     font-size: 6.2vw;
     color: white;
-    font-weight: 500;
+    font-weight: 1000;
     font-family: 'Josefin Sans';
     width: 100%;
     text-align: start;
@@ -101,7 +101,7 @@
     align-items: center;
     max-width: 100%;
     justify-content: space-between;
-    padding: 0vw 5vw 0vw 8vw;
+    padding: 0vw 8vw 0vw 8vw;
     background-color: white;
 }
 
@@ -168,6 +168,7 @@
     font-size: 1.3vw;
     line-height: 124.5%;
     margin: 0;
+    margin-top: 1vw;
     color: #3D3B3B;
 }
 
@@ -182,17 +183,21 @@
     
     color: #3D3B3B;
 
-    margin-top: 2vw;
+    margin-top: 1.5vw;
 
     width: 65%;
 }
 
 .aboutUsPage-content2 .bot-side .sections svg{
-    width: 10vw;
+    width: 7.5vw;
     height: 9vw;
 }
 
 .aboutUsPage-content1 .right-column img {
     width: 41vw;
+}
+
+.UX {
+    width: 9vw;
 }
 

@@ -1,7 +1,7 @@
 import './ServicesPage.css';
 
 import React, { useState } from 'react';
-import {ReactComponent as ArrowLogo} from '../assets/arrow.svg';
+import {ReactComponent as ArrowLogo} from '../assets/gradientArrow.svg';
 import image1 from '../assets/img1.png';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
@@ -44,7 +44,7 @@ const ServicesPage = () => {
                         <div className='servicesPage-content1'>
                             <div className="left-column">
                                 <div className="heading">
-                                    <h1>eXPLORe our services</h1>
+                                    <h1>Explore our services</h1>
                                 </div>
                                 <div className="content">
                                     <p id='services-one'>Here you can explore some of 
@@ -69,8 +69,8 @@ const ServicesPage = () => {
                         </div>
                     </div>
                 </section>
-                <section className="servicesPage-section">
-                    <div className="servicesPage-container">
+                <section className="servicesPage-section2">
+                    <div className="servicesPage-container2">
                         <div className="servicesPage-content2">
                             <div className="services">
                                 <ul className='services-list'>
@@ -79,7 +79,7 @@ const ServicesPage = () => {
                                         <h1>
                                             WEBSITE DESIGN
                                         </h1>
-                                        <div className={`arrow-button ${paragraph1 ? "rotate-arrow" : ""}`} onClick={togglePara1}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph1 ? "rotate-arrow" : ""}`} onClick={togglePara1}>
                                             <ArrowLogo />
                                         </div>
                                         <p className={`fade-in-paragraph ${paragraph1 ? 'show' : ''}`}>
@@ -95,7 +95,7 @@ const ServicesPage = () => {
                                         <h1>
                                             BRAND STRATEGY
                                         </h1>
-                                        <div className={`arrow-button ${paragraph2 ? "rotate-arrow" : ""}`} onClick={togglePara2}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph2 ? "rotate-arrow" : ""}`} onClick={togglePara2}>
                                             <ArrowLogo />
                                         </div>
                                         <p className={`fade-in-paragraph ${paragraph2 ? 'show' : ''}`}>
@@ -116,7 +116,7 @@ const ServicesPage = () => {
                                         <h1>
                                             BRAND IDENTITY
                                         </h1>
-                                        <div className={`arrow-button ${paragraph3 ? "rotate-arrow" : ""}`} onClick={togglePara3}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph3 ? "rotate-arrow" : ""}`} onClick={togglePara3}>
                                             <ArrowLogo />
                                         </div>
                                         <p className={`fade-in-paragraph ${paragraph3 ? 'show' : ''}`}>
@@ -135,7 +135,7 @@ const ServicesPage = () => {
                                         <h1>
                                             GRAPHIC DESIGN
                                         </h1>
-                                        <div className={`arrow-button ${paragraph4 ? "rotate-arrow" : ""}`} onClick={togglePara4}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph4 ? "rotate-arrow" : ""}`} onClick={togglePara4}>
                                             <ArrowLogo />
                                         </div>
                                         <p className={`fade-in-paragraph ${paragraph4 ? 'show' : ''}`}>
@@ -151,12 +151,12 @@ const ServicesPage = () => {
                                     </li>
                                     <li className='list-item'>
                                         <h1>
-                                            Branding Collateral
+                                            BRANDING COLLATERAL
                                         </h1>
-                                        <div className={`arrow-button ${paragraph5 ? "rotate-arrow" : ""}`} onClick={togglePara5}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph5 ? "rotate-arrow" : ""}`} onClick={togglePara5}>
                                             <ArrowLogo />
                                         </div>
-                                        <div className={`fade-in-paragraph ${paragraph5 ? 'show' : ''}`}>
+                                        <div className={`fade-in-paragraph special-paragraph ${paragraph5 ? 'show' : ''}`}>
                                             <p >
                                                 We take a comprehensive approach to branding collateral design by utilizing the brand 
                                                 strategy and identity that we design for each business. This ensures that the 
@@ -164,14 +164,14 @@ const ServicesPage = () => {
                                                 brand identity and resonate with your target audience. We design all kinds of branding 
                                                 collateral including but not limited to;
                                             </p>
-                                            <ui>
+                                            <ul className="paragraph-list">
                                                 <li>Business cards</li>
                                                 <li>Brochures</li>
                                                 <li>Flyers</li>
                                                 <li>Posters</li>
                                                 <li>Social media graphics</li>
                                                 <li>Email templates</li>
-                                            </ui>
+                                            </ul>
                                             <p>and more</p>
                                         </div>
 
@@ -180,7 +180,7 @@ const ServicesPage = () => {
                                         <h1>
                                             DIGITAL MARKETING
                                         </h1>
-                                        <div className={`arrow-button ${paragraph6 ? "rotate-arrow" : ""}`} onClick={togglePara6}>
+                                        <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph6 ? "rotate-arrow" : ""}`} onClick={togglePara6}>
                                             <ArrowLogo />
                                         </div>
                                         <p className={`fade-in-paragraph ${paragraph6 ? 'show' : ''}`}>

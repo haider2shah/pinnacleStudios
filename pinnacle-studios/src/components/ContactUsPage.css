@@ -1,0 +1,60 @@
+.ContactUsPage-section {
+    display: flex;
+    color: #000000;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ContactUsPage-container {
+    margin: auto;
+    width: 100%;
+}
+
+.ContactUsPage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.gradient-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #ff0000, #0000ff); /* Gradient background */
+}
+
+.white-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: #ffffff; /* White background */
+}
+
+.form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background: #ffffff;
+}
+
+/* Additional styling for the form elements */
+.form {
+    padding: 20px;
+}
