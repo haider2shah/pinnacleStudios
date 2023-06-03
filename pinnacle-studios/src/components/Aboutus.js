@@ -1,6 +1,7 @@
 import './aboutUs.css';
 import React from 'react';
 import {ReactComponent as ReactLogo} from '../assets/about-us.svg';
+import {Link} from 'react-router-dom';
 
 const aboutUs = () => {
   return (
@@ -17,9 +18,11 @@ const aboutUs = () => {
                          Developing a brand strategy, and a brand identity system can solve this problem.
                     </p>
                     <div className="button-container">
-                        <button className='contact-us'>
-                            Contact Now
-                        </button>
+                        <Link to="/contactuspage">
+                            <button className='contact-us'>
+                                Contact Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className='column-right'>

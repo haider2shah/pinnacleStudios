@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
+import { ReactComponent as Nbg} from '../assets/navBackground.svg';
 
 const Navbar = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,11 +36,16 @@ const Navbar = ({ className }) => {
     <nav className="navbar">
       <div className={`navbar-width ${className}`}>
         <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
-        <div className="contactPlusNav">
+        <div className={`${isOpen ? 'openNav' : 'contactPlusNav'}`}>
           <div className='button-container'>
-            <button className='contact-us'>Contact Now</button>
+            
+          <Link to="/contactuspage">
+            <button className='contact-us'>
+              <h1>Contact Now</h1>
+            </button>
+          </Link>
           </div>
-          <div className='callToAction'>
+          <div className={`${isOpen ? 'callToAction' : ''}`}>
             <button className={`navbar-toggle ${(isOpen) ? 'x-show' : ''}`} 
             onClick={toggleNavbar}>
                 <span className="hamburger"></span>
@@ -48,20 +54,31 @@ const Navbar = ({ className }) => {
             </button>
           </div>
         </div>
-        <ul className={`${isOpen ? 'navbar-show' : 'navbar-hide'}`}>
-            <li><Link to="/">
-              <a className="navbar-link" href="/">Home</a>
-            </Link></li>
-            <li><Link to="/aboutuspage">
-              <a className="navbar-link" href="/about">About</a>
-            </Link></li>
-            <li><Link to="/servicespage">
-              <a className="navbar-link" href="/services">Services</a>
-            </Link></li>
-            <li><Link to="/contactuspage">
-                <a className="navbar-link" href="/contact">Contact</a>
-            </Link></li>
-        </ul>
+        <div className={`${isOpen ? 'navbar-show' : 'navbar-hide'}`}>
+          <div className="left">
+          </div>
+          <div className="border">
+            <Nbg className='background'/>
+          </div>
+          <div className="right">
+            <ul >
+              <li><Link to="/" className="navbar-link">
+                Home
+              </Link></li>
+              <li><Link to="/aboutuspage" className="navbar-link">
+                About
+              </Link></li>
+              <li><Link to="/servicespage" className="navbar-link">
+                Services
+              </Link></li>
+              <li><Link to="/contactuspage" className="navbar-link">
+                  Contact
+              </Link></li>
+            </ul>
+            <h1 className='navBottomRightHeading'>PINNACLE STUDIOS</h1>
+          </div>
+        </div>
+        
       </div>
     </nav>
   );

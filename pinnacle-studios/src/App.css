@@ -8,3 +8,7 @@
   font-size: calc(10px + 2vmin);
   overflow-x: hidden;
 }
+
+button{
+  cursor: pointer;
+}

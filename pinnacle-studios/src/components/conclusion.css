@@ -52,7 +52,14 @@
     transition: all 400ms ease-in;
 }
 
-.conclusion-content h1 {
+.conclusion-content button h1 {
+    font-size: 1.2vw;
+    color: black;
+    font-weight: 500;
+    font-family: 'Josefin Sans';
+}
+
+.conclusion-content .BrandName {
     position: absolute;
     top: 65%;
     font-size: 1.2vw;

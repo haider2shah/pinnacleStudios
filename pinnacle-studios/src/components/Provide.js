@@ -4,6 +4,7 @@ import {ReactComponent as PhoneIcon} from '../assets/phone-icon.svg';
 import {ReactComponent as MagGlassIcon} from '../assets/mag-glass-icon.svg';
 import {ReactComponent as PlanIcon} from '../assets/plan-icon.svg';
 import {ReactComponent as WorkIcon} from '../assets/work-icon.svg';
+import {Link} from 'react-router-dom';
 
 const provide = () => {
   return (
@@ -37,9 +38,12 @@ const provide = () => {
                     <h1>We get to work</h1>
                   </div>
                 </div>
-                <button className='contact-us'>
-                  <h1>Contact Now</h1>
-                </button>
+                <Link to="/contactuspage">
+                  <button className='contact-us'>
+                    <h1>Contact Now</h1>
+                  </button>
+                </Link>
+                
             </div>
         </div>
     </section>

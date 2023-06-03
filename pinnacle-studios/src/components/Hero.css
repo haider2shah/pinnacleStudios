@@ -137,7 +137,8 @@ h5 {
     top: -2vw;
     padding-top: 8px;
     position: relative;
-    transition: all 400ms ease-in;
+    transition: transform 400ms ease-in;
+    border: none;
 
 }
 

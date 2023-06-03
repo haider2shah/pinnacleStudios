@@ -24,12 +24,12 @@ nav {
 }
 
 .navbar .logo a {
+    background-color: #000;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
     font-size: .8vw;
     line-height: 128px;
-    background-color: #000;
 
     text-align: center;
     -webkit-background-clip: text;
@@ -39,53 +39,79 @@ nav {
     margin-left: auto;
 
     text-decoration: none;
+
 }
 
 .navbar-toggle {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 4.5em;
-    height: 3.2em;
+    width: 2vw;
+    height: 1.6vw;
     cursor: pointer;
     background-color: transparent;
     border: none;
     padding: 0;
+    z-index: 999;
+    position: absolute;
+    top: .6vw;
+    left: 16.55vw;
 }
 
 .hamburger {
     width: 100%;
-    height: .4vw;
+    height: .3vw;
     background-color: #000;
-    transition: all 500ms ease-in-out;
     border-radius: 60px;
 }
 
+.x-show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 96.3%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 999;
+    position: absolute;
+    border-left: 1px solid black;
+}
+
+.x-show:hover{
+    background: linear-gradient(90deg, #034A87 0%, #481C69 40.09%);
+}
+
+.callToAction {
+    width: 100%;
+    height: 32.2vh;
+}
+
 .x-show .hamburger:nth-child(1) {
-    transform: rotate(45deg) translate(-1px, -1px);
+    transform: rotate(45deg) translate(9vw, 3.8vw);
     transform-origin: top left;
-    width: 64px;
-    transition: all 500ms ease-in-out;
+    width: 6vw;
     z-index: 999;
 }
 
 .x-show .hamburger:nth-child(2) {
-    transition: all 500ms ease-in-out;
     transform-origin: center;
     width: 0;
     z-index: 999;
 }
 
 .x-show .hamburger:nth-child(3) {
-    transform: rotate(-45deg) translate(-5px,5px);
+    transform: rotate(-45deg) translate(4.4vw,0.5vw);
     transform-origin: bottom left;
-    width: 64px;
-    transition: all 500ms ease-in-out;
+    width: 6vw;
     z-index: 999;
 }
 
 .navbar-hide {
-    display: none;
+    height: 0;
+    opacity: 0;
 }
 
 .navbar-show {
@@ -97,7 +123,7 @@ nav {
     background: #ffffff;
     text-align: center;
     padding-top: 80px;
-    transition: all 0.3s ease;
+    transition: height 2s ease;
     margin: 0;
 }
 
@@ -109,6 +135,11 @@ nav {
     list-style: none;
     display: inline-block;
 }
+
+.navbar-hide li {
+    border-bottom: 0px solid red;
+}
+
 
 .inline-nav {
     display: flex;
@@ -123,20 +154,34 @@ nav {
 .navbar-show li {
     list-style: none;
     display: block;
-    margin: 20px;
+    width: 100%;
+    text-align: start;
+    height: 20%;
+    border-bottom: 1px solid black;
+    transition: border-bottom 1s ease;
+    position: relative;
 }
+
 
 .navbar-show li a {
     display: block;
     color: #000;
-    font-size: 18px;
+    font-size: 6vw;
     font-weight: 600;
-    margin-left: 25px;
     transition: color 0.3s ease;
+    font-family: "Josefin Sans";
+    letter-spacing: 2vw;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transition: top 1s ease, opacity 500ms ease, letter-spacing 1.5s cubic-bezier(.47,0,.74,.71);
 }
 
 .navbar-show li a:hover {
-    color: #000;
+    color: #fff;
+    background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
+    clip-path: polygon(0% 100%, 1000% 100%, 100% 0%, 0% 0%);
 }
 
 .navbar-show .menu li a:hover {
@@ -159,15 +204,155 @@ a {
 }
 
 .contactPlusNav{
-    width: 20%;
+    width: 18.6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    left: 73vw;
 }
 
 .contactPlusNav .button-container button {
     height: 5vh;
     width: 9vw;
-    font-size: 1vw;
+    font-size: .6vw;
     top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactPlusNav .button-container{
+    display: flex;
+    width: 100%;
+    z-index: 999;
+}
+
+.openNav .button-container{
+    z-index: 0;
+}
+
+.navbar-show .right ul{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbar-show .right li:nth-child(1) a {
+    width: 74.7%;
+    padding-left: 14vw;
+    margin: 0;
+    height: calc(100% - 3vw);
+    padding-top: 3vw;
+}
+
+.navbar-show .right li:nth-child(2) a{
+    padding-left: 24vw;
+    padding-top: 2.8vw;
+    height: calc(100% - 2.8vw);
+    width: 100%;
+}
+
+.navbar-show .right li:nth-child(3) a{
+    padding-left: 34vw;
+    padding-top: 3vw;
+    height: calc(100% - 3vw);
+    width: 100%;
+}
+
+.navbar-show .right li:nth-child(4) a{
+    padding-left: 44vw;
+    padding-top: 3vw;
+    height: calc(100% - 3vw);
+    width: 100%;
+}
+
+.navbar-show .border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+
+.navbar-show .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    border-right: 0vw solid black;
+}
+
+.navbar-show .right{
+    position: absolute;
+    top: 0vw;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%);
+    transition: clip-path 2s cubic-bezier(.45,.05,.55,.95);
+}
+
+.navbar-show .navBottomRightHeading {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 128px;
+    text-align: center;
+    margin-left: auto;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    top: 46vw;
+    left: 85vw;
+    background: linear-gradient(90.2deg, #0A4483 0.54%, #421F6B 101.49%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+}
+
+.navbar-show .background {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+}
+.openNav{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 72vw;
+}
+
+.navbar-hide .left {
+    width: 0;
+}
+
+.navbar-hide .right{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: 0;
+}
+
+.navbar-hide li a {
+    position: absolute;
+    top: -8vw;
+    opacity: 0;
+    letter-spacing: 0;
+}
+
+.navbar-hide .border {
+    display: none;
 }

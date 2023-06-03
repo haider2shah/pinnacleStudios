@@ -1,6 +1,7 @@
 import React from 'react';
 import './business.css';
 import image2 from '../assets/img2.png';
+import {Link} from 'react-router-dom';
 
 const business = () => {
   return (
@@ -17,7 +18,11 @@ const business = () => {
                     <p>Our designs are the result of detailed strategies developed to serve our client's unique business needs.
                          Don't end up with a one-size-fits-all design, because IT DOESN'T WORK.</p>
                     <div className='button-container'>
-                        <button className='contact-us'>Contact Now</button>
+                        <Link to="/contactuspage">
+                            <button className='contact-us'>
+                                Contact Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

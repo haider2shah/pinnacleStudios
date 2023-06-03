@@ -1,6 +1,7 @@
 import React from 'react';
 import './ad.css';
 import {ReactComponent as AdIcon} from '../assets/adIcon.svg';
+import {Link} from 'react-router-dom';
 
 const ad = () => {
   return (
@@ -13,7 +14,11 @@ const ad = () => {
                          and crafting a compelling story that resonates with them, 
                          so they can become your ambassadors.</p>
                     <div className='button-container'>
-                        <button className='contact-us'>Contact Now</button>
+                        <Link to="/contactuspage">
+                            <button className='contact-us'>
+                                Contact Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="right-column">

@@ -13,7 +13,7 @@ const Hero = () => {
             <div className='Hero-content'>
                 <Heading className='headingSvg'/>
                 <h3>A design studio for disruptive entrepreneurs</h3>
-                <Link to="/aboutuspage">
+                <Link to="/contactuspage">
                     <button className='contact-us'>
                         Contact Now
                     </button>

@@ -1,7 +1,6 @@
 .ContactUsPage-section {
     display: flex;
     color: #000000;
-    height: 100vh;
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
@@ -22,49 +21,193 @@
 
 .container {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    width: 100%;
 }
 
 .gradient-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(to right, #ff0000, #0000ff); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 81vh;
+    width: 100%;
+    background: linear-gradient(180deg, #044986 2.52%, #481C69 86.55%);
+    flex-direction: column;
+}
+
+.gradient-bg h1 {
+    font-size: 6vw;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Josefin sans";
+    margin-bottom: 16vw;
 }
 
 .white-bg {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background: #ffffff; /* White background */
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
 }
 
 .form-wrapper {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 200px;
+    width: 87vw;
+    height: 62vw;
     background: #ffffff;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 0px 17px -4px gray;
 }
 
 /* Additional styling for the form elements */
 .form {
-    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 87vh;
 }
 
 .contact-us-form-heading {
-    font-size: 6.2vw;
-    color: white;
+    font-size: 3vw;
+    color: black;
     font-weight: 1000;
     font-family: 'Josefin Sans';
-    width: 100%;
-    text-align: start;
+    width: 83%;
+    text-align: center;
+    top: 4%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 8vw;
+}
+
+.contact-info {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+}
+
+.email-info{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 38%;
+    align-items: center;
+}
+
+.contact-info .icon {
+    display: flex;
+    width: 1.4vw;
+    height: 1.4vw;
+    background: transparent;
+    border-radius: 130px;
+    justify-content: center;
+    align-items: center;
     margin: 0;
+}
+
+.phone-info{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: fit-content;
+    align-items: center;
+}
+
+.contact-info h1 {
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-family: "Josefin Sans";
+    text-align: center;
+    margin: 0;
+}
+
+.form input {
+    height: 6vh;
+    width: 35vw;
+    border-radius: .25vw;
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    padding-left: 1vw;
+}
+
+.top-part{
+    width: 86%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+.bot-part{
+    width: 86%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form .button {
+    position: absolute;
+    width: 20vw;
+    top: 88.5%;
+    font-size: 1vw;
+    height: 4vw;
+    background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 3vw;
+    COLOR: white;
+    font-size: 1.3vw;
+    font-family: 'Josefin Sans';
+    padding-top: 8px;
+    transition: all 400ms ease-in;
+}
+
+textarea {
+    width: 72.3vw;
+    height: 19vw;
+    margin-top: 2vw;
+    border-radius: 0.25vw;
+    resize: vertical;
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+textarea::placeholder{
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+input::placeholder{
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
 }
