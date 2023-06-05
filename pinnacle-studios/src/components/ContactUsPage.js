@@ -4,7 +4,6 @@ import Footer from './Footer.js';
 import './ContactUsPage.css';
 import { ReactComponent as PhoneIcon } from '../assets/phoneIcon.svg';
 import { ReactComponent as MailIcon } from '../assets/mailIcon.svg';
-import axios from "axios";
 
 const ContactUsPage = () => {
 
@@ -12,23 +11,26 @@ const ContactUsPage = () => {
     const [email, setEmail] = useState("")
     const [company, setCompany] = useState("")
     const [number, setNumber] = useState("")
-    const [message, setMsssage] = useState("")
+    const [message, setMessage] = useState("")
 
-    submit = async(e) => {
-        e.prevventDefault()
+    const handleSubmit = async (event) => {
+        event.preventDefault();
 
-        try{
-            await axios.post("http://localhost:8000", {
-                name,
-                email,
-                company,
-                number,
-                message
-            })
+        const data = {
+            name: name,
+            email: email,
+            company: company,
+            number: number,
+            message: message
         }
-        catch(e) {
-            console.log(e)
-        }
+
+        console.log(data)
+
+        setName("")
+        setNumber("")
+        setEmail("")
+        setCompany("")
+        setMessage("")
     }
 
     return (
@@ -59,17 +61,17 @@ const ContactUsPage = () => {
                                 <div className="white-bg"></div>
                                 <div className="form-wrapper">
                                     <h1 className='contact-us-form-heading'>Let's book a free 30 minutes consultation to learn more about your project</h1>
-                                    <form className="form" action='POST'>
+                                    <form className="form" method='POST'>
                                         <div className="top-part">
-                                            <input type="text" name="name" id="name" placeholder="Name" required onChange={(e) => {setName(e.target.value)}}/>
-                                            <input type="text" name="email" id="email"  placeholder="Email" required onChange={(e) => {setEmail(e.target.value)}}/>
+                                            <input type="text" name="name" id="name" placeholder="Name" value={name} required onChange={(e) => {setName(e.target.value)}}/>
+                                            <input type="text" name="email" id="email"  placeholder="Email" value={email} required onChange={(e) => {setEmail(e.target.value)}}/>
                                         </div>
                                         <div className="bot-part">
-                                            <input type="text" name="company" id="company" placeholder="Company" required onChange={(e) => {setCompany(e.target.value)}}/>
-                                            <input type="text" name='number' id='number' placeholder='Number' required onChange={(e) => {setNumber(e.target.value)}}/>
+                                            <input type="text" name="company" id="company" placeholder="Company" value={company} required onChange={(e) => {setCompany(e.target.value)}}/>
+                                            <input type="text" name='number' id='number' placeholder='Number' value={number} required onChange={(e) => {setNumber(e.target.value)}}/>
                                         </div>
-                                        <textarea name="message" id='Message' placeholder='Message' required onChange={(e) => {setMsssage(e.target.value)}}></textarea> 
-                                        <input type="submit" className='button' onClick={submit} value="Submit">Book Free Consultation</input> 
+                                        <textarea name="message" id='Message' placeholder='Message' value={message} required onChange={(e) => {setMessage(e.target.value)}}></textarea> 
+                                        <button type="button" onClick={handleSubmit}>Book Free Consultation</button> 
                                     </form>
                                 </div>
                             </div>
