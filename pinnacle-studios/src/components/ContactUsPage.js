@@ -24,7 +24,7 @@ const ContactUsPage = () => {
             message
         }
         
-        fetch('http://localhost:8888/send-email', {
+        fetch('https://pinnaclestudios.onrender.com/send-email', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),
