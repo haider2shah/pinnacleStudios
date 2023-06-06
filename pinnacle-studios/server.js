@@ -1,3 +1,4 @@
+const path = require('path')
 const express = require('express');
 const app = express();
 const nodemailer = require('nodemailer');
@@ -7,6 +8,21 @@ const cors = require('cors');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
+
+if (process.env.NODE_ENV === "production") {
+  app.use("/voleo/", express.static("client/build"));
+  app.use(helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+      styleSrc: ["'self'"],
+      imgSrc: ["'self"]
+    }
+  }))
+
+  app.get("*", (req, res) => {
+    res.sendfile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
 
 // Configure Nodemailer transporter
 const transporter = nodemailer.createTransport({
