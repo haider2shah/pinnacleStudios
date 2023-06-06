@@ -1,7 +1,7 @@
 {
   "name": "pinnacle-studios",
   "version": "0.1.0",
-  "engines":{
+  "engines": {
     "npm": "9.2.0",
     "node": "19.3.0"
   },
@@ -18,6 +18,7 @@
     "dotenv": "^16.1.4",
     "eslint": "^8.42.0",
     "express": "^4.18.2",
+    "helmet": "^7.0.0",
     "nodemailer": "^6.9.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
