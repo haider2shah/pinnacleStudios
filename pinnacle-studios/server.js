@@ -10,6 +10,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
+app.use(express.static(__dirname + "/build", {
+    index: false, 
+    immutable: true, 
+    cacheControl: true,
+    maxAge: "30d"
+}));
+
 if (process.env.NODE_ENV === "production") {
   app.use("/voleo/", express.static("client/build"));
   app.use(
