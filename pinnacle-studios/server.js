@@ -12,13 +12,11 @@ app.use(cors());
 
 if (process.env.NODE_ENV === "production") {
   app.use("/voleo/", express.static("client/build"));
-  app.use(helmet.contentSecurityPolicy({
-    directives: {
-      defaultSrc: ["'self'"],
-      styleSrc: ["'self'"],
-      imgSrc: ["'self"]
-    }
-  }))
+  app.use(
+  helmet({
+      contentSecurityPolicy: false,
+    })
+  );
 
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "build", "index.html"));
