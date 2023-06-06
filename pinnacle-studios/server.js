@@ -1,3 +1,4 @@
+const path = require('path')
 const helmet = require('helmet');
 const express = require('express');
 const app = express();
@@ -17,6 +18,9 @@ if (process.env.NODE_ENV === "production") {
     })
   );
 
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "build", "index.html"));
+  });
 }
 
 // Configure Nodemailer transporter
