@@ -11,7 +11,7 @@
 
 .aboutUs-container {
     height: 70vh;
-    margin: auto;
+    margin: 0;
     display: flex;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .aboutUs-section button {
-    height: 8vh;
+    height: 4vw;
     width: 13vw;
     top: -2vh;
 }

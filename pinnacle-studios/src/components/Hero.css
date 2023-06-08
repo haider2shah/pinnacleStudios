@@ -17,7 +17,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    margin-top: 6vw;
+    margin-top: 0vw;
 }
 
 .Hero-content .logo {
@@ -117,16 +117,18 @@ h5 {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 1.2vw;
     line-height: 124.5%;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 
     color: #000000;
 }
 
 .contact-us {
 
-    height: 8vh;
+    height: 4vw;
     width: 13vw;
     background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
@@ -134,8 +136,8 @@ h5 {
     COLOR: white;
     font-size: 1.4vw;
     font-family: 'Josefin Sans';
-    top: -2vw;
-    padding-top: 8px;
+    top: -6vh;
+    padding-top: .4vw;
     position: relative;
     transition: transform 400ms ease-in;
     border: none;
@@ -143,7 +145,7 @@ h5 {
 }
 
 .contact-us:hover {
-    transform: translateY(-8px);
+    transform: translateY(-.2vw);
 }
 
 .underline {
@@ -170,11 +172,11 @@ h5 {
 }
 
 .Hero-container .arrowSvg {
-    position: absolute;
-    left: 60vw;
-    top: 30.6vw;
-    width: 19vw;
     height: 19vw;
+    left: 60vw;
+    position: absolute;
+    top: 58.2vh;
+    width: 19vw;
 }
 
 .headingSvg {

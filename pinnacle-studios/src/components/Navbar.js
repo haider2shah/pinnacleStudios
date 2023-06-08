@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
 import { ReactComponent as Nbg} from '../assets/navBackground.svg';
+import { ReactComponent as X } from '../assets/xButton.svg';
 
 const Navbar = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,6 +52,7 @@ const Navbar = ({ className }) => {
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
+                <X className="xSvg"/>
             </button>
           </div>
         </div>

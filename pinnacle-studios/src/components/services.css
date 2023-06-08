@@ -6,13 +6,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 2.5vw 0px;
     margin-bottom: 15vw;
 }
 
 .services-container {
-    height: 70vh;
-    margin: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
