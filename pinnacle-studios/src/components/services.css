@@ -1,12 +1,11 @@
 .services-section {
-    display: flex;
-    color: #000000;
-    min-height: 500px;
-    background-color: #ffffff;
-    justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-bottom: 15vw;
+    min-height: 600px;
 }
 
 .services-container {
@@ -33,7 +32,7 @@
 
 .services-content .right-column {
     width: 50%;
-    height: 66vh;
+    height: 75vh;
 }
 
 .services-content .figure img {

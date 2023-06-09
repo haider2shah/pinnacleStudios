@@ -308,6 +308,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 .navbar-show .background {
@@ -345,7 +349,7 @@ a {
     display: none;
 }
 
-.xSvg{
-    width: 2vw;
-    height: 2vw;
+.x-show .xSvg{
+    width: 6vw;
+    height: 6vw;
 }

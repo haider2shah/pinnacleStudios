@@ -16,13 +16,13 @@
 }
 
 .aboutUs-content {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    display: flex;
     height: 60vh;
+    justify-content: space-between;
+    padding: 0 8vw;
     position: relative;
-    padding: 0vw 8vw 0vw 8vw;
+    width: 100vw;
 }
 
 .aboutUs-content .column-left{

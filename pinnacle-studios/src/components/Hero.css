@@ -18,6 +18,7 @@
     flex-direction: column;
     position: relative;
     margin-top: 0vw;
+    min-height: 500px;
 }
 
 .Hero-content .logo {
