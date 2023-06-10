@@ -52,7 +52,7 @@ const Navbar = ({ className }) => {
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
-                <X className={`${(isOpen)} ? 'xSvg' : 'xSVGhidden'`}/>
+                <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
             </button>
           </div>
         </div>
