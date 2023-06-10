@@ -83,13 +83,13 @@
 }
 
 .provide-content button{
-    height: 8vh;
+    height: 4vw;
     width: 13vw;
     background: white;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
     border-radius: 3vw;
     COLOR: black;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-family: 'Josefin Sans';
     position: relative;
     transition: all 400ms ease-in;
