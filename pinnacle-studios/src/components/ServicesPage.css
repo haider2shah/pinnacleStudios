@@ -191,9 +191,9 @@
 
 .fade-in-paragraph {
     opacity: 0;
-    transition: opacity 400ms ease, margin 200ms ease;
+    transition: opacity 100ms ease, margin 200ms ease;
     text-align: left;
-    font-size: 1vw;
+    font-size: 1.2vw;
     margin: -3vw 0px 2vw 0px;
 }
 
@@ -219,4 +219,8 @@
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#BS1{
+    margin-bottom: 0;
 }

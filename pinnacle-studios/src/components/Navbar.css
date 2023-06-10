@@ -50,6 +50,11 @@ nav {
     position: absolute;
     top: .6vw;
     left: 16.55vw;
+    transition: all 500ms ease;
+}
+
+.navbar-toggle:hover {
+    transform: translateY(-.2vw);
 }
 
 .hamburger {
