@@ -349,7 +349,7 @@ a {
     display: none;
 }
 
-.x-show .xSVG{
+.x-show .xSvg{
     width: 6vw;
     height: 6vw;
     position: absolute;
@@ -361,6 +361,6 @@ a {
     display: none;
 }
 
-.x-show .xSVG path:hover{
+.x-show .xSvg path:hover{
     fill: white;
 }
