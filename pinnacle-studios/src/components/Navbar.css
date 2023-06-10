@@ -361,6 +361,6 @@ a {
     display: none;
 }
 
-.x-show .xSvg path:hover{
+.x-show:hover > .xSvg path{
     fill: white;
 }
