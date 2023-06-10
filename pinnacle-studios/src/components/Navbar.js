@@ -68,7 +68,7 @@ const Navbar = ({ className }) => {
                 Home
               </Link></li>
               <li><Link to="/aboutuspage" className="navbar-link">
-                About
+                About Us
               </Link></li>
               <li><Link to="/servicespage" className="navbar-link">
                 Services
