@@ -16,10 +16,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 500px;
 }
 
 .aboutUsPage-container {
-    height: 100vh;
     margin: auto;
     width: 100%;
 }
@@ -32,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    min-height: 500px;
     background: linear-gradient(180deg, #034A87 10.32%, #481C69 82.09%);
 }
 
