@@ -81,6 +81,7 @@ nav {
 
 .x-show:hover{
     background: linear-gradient(90deg, #034A87 0%, #481C69 40.09%);
+    transform: translateY(0vw);
 }
 
 .callToAction {

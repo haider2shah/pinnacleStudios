@@ -103,9 +103,6 @@ const ServicesPage = () => {
                                             achieving your company's long-term objectives. It concentrates on the 
                                             specifics of what, when, where, how, and to whom you deliver your brand's message. 
                                             clear brand strategy is the primary force that drives a business towards sustainable growth.
-                                        </p>
-
-                                        <p className={`fade-in-paragraph ${paragraph2 ? 'show' : ''}`}>
                                             It's crucial to recognize that brand strategy, branding, and brand identity 
                                             are distinct concepts. We help our clients to clearly identify the difference 
                                             and design a clear brand strategy that serves as the guiding tool for every 

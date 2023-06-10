@@ -14,13 +14,13 @@ const conclusion = () => {
                   tailored for their business, that we can use as the guiding 
                   principle for every design decision like designing an amazing 
                   website, branding collateral, and digital marketing campaigns. 
-                  So entrepreneurs can focus on what they do the best, change the wORLd.”</p>
+                  So entrepreneurs can focus on what they do the best, change the world.”</p>
                 <Link to="/contactuspage">
                   <button className='contact-us'>
                     <h1>Contact Now</h1>
                   </button>
                 </Link>
-                <h1 className='BrandName'>pINNACLe sTUDIOs</h1>
+                <h1 className='BrandName'>Pinnacle Studios</h1>
                 <h2>A design studio for disruptive entrepreneurs. </h2>
             </div>
         </div>

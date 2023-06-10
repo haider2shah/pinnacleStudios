@@ -143,30 +143,32 @@
 }
 
 .form input {
-    height: 6vh;
-    width: 35vw;
-    border-radius: .25vw;
+    height: 4vw;
+    width: 32vw;
+    border-radius: .5vw;
     font-size: 1.5vw;
     font-family: 'Josefin Sans';
     font-style: normal;
-    padding-left: 1vw;
+    padding-left: 2vw;
+    border: 0;
+    border: 1px solid black;
 }
 
 .top-part{
-    width: 86%;
-    height: 14vh;
+    width: 73.5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 4vw;
+    height: 7vw;
 }
 
 .bot-part{
-    width: 86%;
-    height: 14vh;
+    width: 73.5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 7vw;
 }
 
 .form button {
@@ -183,21 +185,27 @@
     font-family: 'Josefin Sans';
     padding-top: 8px;
     transition: all 400ms ease-in;
+    border: 0;
+}
+
+.form button:hover{
+    transform: translateY(-.2vw);
 }
 
 textarea {
-    width: 72.3vw;
+    width: 71.3vw;
     height: 19vw;
     margin-top: 2vw;
-    border-radius: 0.25vw;
+    border-radius: .5vw;
     resize: vertical;
     font-size: 1.5vw;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     color: black;
-    padding-left: 1vw;
+    padding-left: 2vw;
     padding-top: 1vw;
+    border: 1px solid black;
 }
 
 textarea::placeholder{
