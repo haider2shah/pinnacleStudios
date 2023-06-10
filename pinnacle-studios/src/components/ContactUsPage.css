@@ -42,9 +42,8 @@
 .gradient-bg h1 {
     color: #fff;
     font-family: Josefin sans;
-    font-size: 6vw;
+    font-size: 7vw;
     text-align: center;
-    width: 100%;
     margin: 0;
     margin-bottom: 0px;
     margin-bottom: 6vw;
@@ -52,17 +51,17 @@
 
 .white-bg {
     width: 100%;
-    height: 100vh;
+    height: 128vh;
     background: #ffffff;
 }
 
 .form-wrapper {
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 130vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
     width: 87vw;
-    height: 62vw;
+    height: 80vw;
     background: #ffffff;
     border-radius: 2vw;
     display: flex;
@@ -85,7 +84,7 @@
 .contact-us-form-heading {
     font-size: 3vw;
     color: black;
-    font-weight: 1000;
+    font-weight: 200;
     font-family: 'Josefin Sans';
     width: 83%;
     text-align: center;
@@ -95,6 +94,7 @@
     justify-content: center;
     align-items: center;
     left: 8vw;
+    margin: 6vw 0vw;
 }
 
 .contact-info {
@@ -103,15 +103,15 @@
     flex-direction: row;
     align-items: center;
     position: absolute;
-    top: 50vh;
-    width: 34%;
+    top: 45vh;
+    width: 38%;
 }
 
 .email-info{
     display: flex;
     justify-content: space-between;
     height: fit-content;
-    width: 49%;
+    width: 44%;
     align-items: center;
 }
 
@@ -129,15 +129,15 @@
 .phone-info{
     display: flex;
     justify-content: space-between;
-    width: 38%;
+    width: 34%;
     height: fit-content;
     align-items: center;
 }
 
 .contact-info h1 {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: rgb(255, 255, 255);
-    font-weight: 1000;
+    font-weight: 200;
     font-family: "Josefin Sans";
     text-align: center;
     margin: 0;
