@@ -61,7 +61,7 @@
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 87vw;
-    height: 80vw;
+    height: 77vw;
     background: #ffffff;
     border-radius: 2vw;
     display: flex;
@@ -78,23 +78,22 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 87vh;
+    height: 100vh;
 }
 
 .contact-us-form-heading {
     font-size: 3vw;
-    color: black;
+    color: #3D3B3B;
     font-weight: 200;
     font-family: 'Josefin Sans';
     width: 83%;
     text-align: center;
-    top: 4%;
+    top: 16vh;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     left: 8vw;
-    margin: 6vw 0vw;
 }
 
 .contact-info {
@@ -160,7 +159,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4vw;
+    margin-top: 20vh;
     height: 7vw;
 }
 
@@ -175,7 +174,7 @@
 .form button {
     position: absolute;
     width: 20vw;
-    top: 88.5%;
+    top: 87.5%;
     font-size: 1vw;
     height: 4vw;
     background: linear-gradient(94.06deg, #034A87 10.32%, #481C69 82.09%);
