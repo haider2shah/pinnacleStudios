@@ -44,12 +44,13 @@
 
 .servicesPage-container {
     height: 100vh;
-    margin: auto;
+    margin: 0;
     width: 100%;
+    min-height: 500px;
 }
 
 .servicesPage-container2 {
-    margin: auto;
+    margin: 0;
     width: 100%;
 }
 
@@ -61,6 +62,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    min-height: 500px;
     background: linear-gradient(180deg, #034A87 10.32%, #481C69 82.09%);
 }
 
@@ -71,7 +73,7 @@
     align-items: center;
     flex-direction: column;
     padding-left: 8%;
-    height: 50vh;
+    height: 50%;
 }
 
 .servicesPage-content1 .left-column .heading {
@@ -116,7 +118,7 @@
 
 .servicesPage-content1 .right-column {
     width: 80%;
-    height: 87vh;
+    height: 76%;
     display: flex;
     justify-content: center;
     align-items: flex-end;

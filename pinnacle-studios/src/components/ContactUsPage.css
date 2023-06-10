@@ -5,11 +5,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 500px;
 }
 
 .ContactUsPage-container {
-    margin: auto;
+    margin: 0;
     width: 100%;
+    min-height: 500px;
 }
 
 .ContactUsPage-content {
@@ -17,11 +19,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 500px;
 }
 
 .container {
     position: relative;
     width: 100%;
+    min-height: 500px;
 }
 
 .gradient-bg {
