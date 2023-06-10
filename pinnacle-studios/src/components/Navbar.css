@@ -24,8 +24,7 @@ nav {
 }
 
 .navbar .logo a {
-    background-clip: text;
-    background-color: #000;
+    color: #000;
     font-family: Josefin Sans;
     font-size: 1.2vw;
     font-style: normal;
@@ -116,7 +115,7 @@ nav {
 }
 
 .navbar-hide li {
-    border-bottom: 0px solid red;
+    border-bottom: 0px solid rgb(0, 0, 0);
 }
 
 
