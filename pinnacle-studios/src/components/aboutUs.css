@@ -10,7 +10,6 @@
 }
 
 .aboutUs-container {
-    height: 70vh;
     margin: 0;
     display: flex;
 }
@@ -18,7 +17,7 @@
 .aboutUs-content {
     align-items: center;
     display: flex;
-    height: 60vh;
+    height: 69vh;
     justify-content: space-between;
     padding: 0 8vw;
     position: relative;

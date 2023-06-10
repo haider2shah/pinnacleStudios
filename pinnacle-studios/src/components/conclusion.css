@@ -1,8 +1,6 @@
 .conclusion-section {
-    align-items: center;
     background-color: #fff;
     color: #000;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -46,7 +44,7 @@
     font-size: 1.3vw;
     height: 4vw;
     position: relative;
-    top: -45vh;
+    top: -41vh;
     transition: all .4s ease-in;
     width: 13vw;
 }

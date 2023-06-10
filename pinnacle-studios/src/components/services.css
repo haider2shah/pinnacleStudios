@@ -5,11 +5,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
+    height: 100vh;
 }
 
 .services-container {
-    height: 100vh;
+    min-height: 500px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,19 +21,19 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     position: relative;
 }
 
 .services-content .left-column {
     width: 45%;
-    height: 66vh;
+    height: 93vh;
     position: relative;
 }
 
 .services-content .right-column {
     width: 50%;
-    height: 75vh;
+    height: 97vh;
 }
 
 .services-content .figure img {
@@ -51,7 +52,7 @@
 }
 
 .services-content .services {
-    width: 80%;
+    width: 61%;
     height: 50%;
 }
 
@@ -73,7 +74,7 @@
 .services-content .services li::after {
     position: absolute;
     content: '';
-    height: .03vw;
+    height: .1vw;
     bottom: 6px;
     margin: 0 auto;
     left: 0;
@@ -117,10 +118,10 @@
     transition: opacity 1s ease, margin 1s ease;
     text-align: left;
     font-size: 1vw;
-    margin: -1.6vw 0px 20px 0px;
+    margin: -1.6vw 0px 1vw 0px;
 }
 
 .right-column .fade-in-paragraph.show {
     opacity: 1;
-    margin: -10px 0px 20px 0px;
+    margin: -.5vw 0px 1vw 0px;
 }
