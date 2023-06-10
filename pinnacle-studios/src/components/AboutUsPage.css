@@ -173,6 +173,14 @@
     color: #3D3B3B;
 }
 
+.aboutUsPage-content2 .bot-side .sections .icons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8vw;
+}
+
+
 .aboutUsPage-content2 .bot-side .sections p {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -191,14 +199,11 @@
 
 .aboutUsPage-content2 .bot-side .sections svg{
     width: 7.5vw;
-    height: 9vw;
+    height: 6vw;
 }
 
 .aboutUsPage-content1 .right-column img {
     width: 41vw;
 }
 
-.UX {
-    width: 9vw;
-}
 
