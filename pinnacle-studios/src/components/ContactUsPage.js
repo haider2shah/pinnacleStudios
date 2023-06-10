@@ -52,7 +52,7 @@ const ContactUsPage = () => {
                         <div className="ContactUsPage-content">
                             <div className="container">
                                 <div className="gradient-bg">
-                                    <h1>Contact Now</h1>
+                                    <h1>Contact Us</h1>
                                     <div className="contact-info">
                                         <div className="email-info">
                                             <div className="icon">
