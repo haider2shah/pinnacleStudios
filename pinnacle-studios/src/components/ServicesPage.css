@@ -173,7 +173,7 @@
     width: 5.5vw;
     height: 5.5vw;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all 400ms ease;
     margin-top: 3.4vw;
     z-index: 998;
 }
