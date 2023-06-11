@@ -9,11 +9,11 @@ const ad = ({isVisible}) => {
         <div className="extra-container">
             <div className="extra-content">
                 <div className="left-column">
-                    <h1>Turn your customers into your biggest supporters.</h1>
-                    <p>Effective design is not just about aesthetics - it's about understanding the needs of your audience
+                    <h1 className={`fade-in ${isVisible ? 'visible' : ''}`}>Turn your customers into your biggest supporters.</h1>
+                    <p className={`fade-in ${isVisible ? 'visible' : ''}`}>Effective design is not just about aesthetics - it's about understanding the needs of your audience
                          and crafting a compelling story that resonates with them, 
                          so they can become your ambassadors.</p>
-                    <div className='button-container'>
+                    <div className={`fade-in button-container ${isVisible ? 'visible' : ''}`}>
                         <Link to="/contactuspage">
                             <button className='contact-us'>
                                 Contact Now
@@ -21,7 +21,7 @@ const ad = ({isVisible}) => {
                         </Link>
                     </div>
                 </div>
-                <div className="right-column">
+                <div className={`fade-in right-column ${isVisible ? 'visible' : ''}`}>
                     <div className="figure">
                         <AdIcon />
                     </div>

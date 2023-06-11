@@ -31,19 +31,19 @@ const Services = ({isVisible}) => {
 
 
     return (
-        <section id='services' className={`services-section ${isVisible ? 'fade-in' : ''}`}>
-            <div className="services-container">
+        <section id='services' className="services-section">
+            <div className="services-container" >
                 <div className="services-content">
-                    <div className="left-column">
+                    <div className={`fade-in left-column ${isVisible ? 'visible' : ''}`}>
                         <div className="figure">
                             <img src={image1} alt="showing services" />
                         </div>
                     </div>
-                    <div className="right-column">
-                        <h1 className='main-heading'>Use our services to inspire your customers,
+                    <div className={`fade-in right-column ${isVisible ? 'visible' : ''}`}>
+                        <h1 className={`fade-in main-heading ${isVisible ? 'visible' : ''}`}>Use our services to inspire your customers,
                             and build a community.
                         </h1>
-                        <div className="services">
+                        <div className={`fade-in services ${isVisible ? 'visible' : ''}`}>
                             <ul className='services-list'>
                                 <li className='list-item'>
                                     

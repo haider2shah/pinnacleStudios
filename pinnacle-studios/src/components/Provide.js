@@ -8,11 +8,11 @@ import {Link} from 'react-router-dom';
 
 const provide = ({isVisible}) => {
   return (
-    <section id='provide' className={`provide-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='provide' className={`provide-section`}>
         <div className="provide-container">
             <div className="provide-content">
-                <h1>In 4 Simple Steps, you can take a desicion that gets you peace of mind.</h1>
-                <div className="provide-icons">
+                <h1 className={`fade-in ${isVisible ? 'visible' : ''}`}>In 4 Simple Steps, you can take a desicion that gets you peace of mind.</h1>
+                <div className={`fade-in provide-icons ${isVisible ? 'visible' : ''}`}>
                   <div className="icons">
                     <div className="icon" >
                       <PhoneIcon />
@@ -39,7 +39,7 @@ const provide = ({isVisible}) => {
                   </div>
                 </div>
                 <Link to="/contactuspage">
-                  <button className='contact-us'>
+                  <button className={`fade-in contact-us ${isVisible ? 'visible' : ''}`}>
                     <h1>Contact Now</h1>
                   </button>
                 </Link>
