@@ -3,9 +3,9 @@ import './ad.css';
 import {ReactComponent as AdIcon} from '../assets/adIcon.svg';
 import {Link} from 'react-router-dom';
 
-const ad = () => {
+const ad = ({isVisible}) => {
   return (
-    <section className="extra-section">
+    <section className={`extra-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="extra-container">
             <div className="extra-content">
                 <div className="left-column">

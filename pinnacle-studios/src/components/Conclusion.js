@@ -2,9 +2,9 @@ import React from 'react';
 import './conclusion.css';
 import {Link} from 'react-router-dom';
 
-const conclusion = () => {
+const conclusion = ({isVisible}) => {
   return (
-    <section className="conclusion-section">
+    <section className={`conclusion-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="conclusion-container">
             <div className="conclusion-content">
                 <p>“Most entrepreneurs struggle to find a designer they can trust. 
@@ -20,7 +20,7 @@ const conclusion = () => {
                     <h1>Contact Now</h1>
                   </button>
                 </Link>
-                <h1 className='BrandName'>Pinnacle Studios</h1>
+                <h1 className='BrandName'>PINNACLE STUDIOS</h1>
                 <h2>A design studio for disruptive entrepreneurs. </h2>
             </div>
         </div>

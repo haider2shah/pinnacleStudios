@@ -5,10 +5,10 @@ import {ReactComponent as Heading} from '../assets/heroHeading.svg';
 import {Link} from 'react-router-dom';
 
 
-const Hero = () => {
+const Hero = ({isVisible}) => {
   
   return (
-    <section className='Hero-section'>
+    <section className={`Hero-section  ${isVisible ? 'fade-in' : ''}`}>
         <div className='Hero-container'>
             <div className='Hero-content'>
                 <Heading className='headingSvg'/>

@@ -3,9 +3,9 @@ import React from 'react';
 import {ReactComponent as ReactLogo} from '../assets/about-us.svg';
 import {Link} from 'react-router-dom';
 
-const aboutUs = () => {
+const aboutUs = ({isVisible}) => {
   return (
-    <section className='aboutUs-section'>
+    <section className={`aboutUs-section ${isVisible ? 'fade-in' : ''}`}>
         <div className='aboutUs-container'>
             <div className='aboutUs-content'>
                 <div className='column-left'>

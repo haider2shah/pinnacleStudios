@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.css'
 
-const footer = () => {
+const footer = ({isVisible}) => {
   return (
-    <section className='footer-section'>
+    <section className={`footer-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="footer-container">
             <div className="footer-content">
                 <h5>© 2023 by Pinnaclestudio.co</h5>

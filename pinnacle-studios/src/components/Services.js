@@ -4,7 +4,7 @@ import image1 from '../assets/img1.png';
 import './services.css';
 
 
-const Services = () => {
+const Services = ({isVisible}) => {
 
     const [paragraph1, setParagraph1] = useState(false);
     const [paragraph2, setParagraph2] = useState(false);
@@ -31,7 +31,7 @@ const Services = () => {
 
 
     return (
-        <section className="services-section">
+        <section className={`services-section ${isVisible ? 'fade-in' : ''}`}>
             <div className="services-container">
                 <div className="services-content">
                     <div className="left-column">

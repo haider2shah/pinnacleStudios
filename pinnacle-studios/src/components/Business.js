@@ -3,9 +3,9 @@ import './business.css';
 import image2 from '../assets/img2.png';
 import {Link} from 'react-router-dom';
 
-const business = () => {
+const business = ({isVisible}) => {
   return (
-    <section className="business-section">
+    <section className={`business-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="business-container">
             <div className="business-content">
                 <div className="column-left">
