@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 const ad = ({isVisible}) => {
   return (
-    <section className={`extra-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='ad' className={`extra-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="extra-container">
             <div className="extra-content">
                 <div className="left-column">
