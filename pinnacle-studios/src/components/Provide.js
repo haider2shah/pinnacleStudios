@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 const provide = ({isVisible}) => {
   return (
-    <section className={`provide-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='provide' className={`provide-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="provide-container">
             <div className="provide-content">
                 <h1>In 4 Simple Steps, you can take a desicion that gets you peace of mind.</h1>

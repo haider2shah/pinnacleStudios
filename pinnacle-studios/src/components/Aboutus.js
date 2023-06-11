@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 const aboutUs = ({isVisible}) => {
   return (
-    <section className={`aboutUs-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='aboutus' className={`aboutUs-section ${isVisible ? 'fade-in' : ''}`}>
         <div className='aboutUs-container'>
             <div className='aboutUs-content'>
                 <div className='column-left'>

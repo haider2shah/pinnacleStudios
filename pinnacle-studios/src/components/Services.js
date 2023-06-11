@@ -31,7 +31,7 @@ const Services = ({isVisible}) => {
 
 
     return (
-        <section className={`services-section ${isVisible ? 'fade-in' : ''}`}>
+        <section id='services' className={`services-section ${isVisible ? 'fade-in' : ''}`}>
             <div className="services-container">
                 <div className="services-content">
                     <div className="left-column">

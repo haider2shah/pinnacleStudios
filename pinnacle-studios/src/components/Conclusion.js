@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const conclusion = ({isVisible}) => {
   return (
-    <section className={`conclusion-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='conclusion' className={`conclusion-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="conclusion-container">
             <div className="conclusion-content">
                 <p>“Most entrepreneurs struggle to find a designer they can trust. 

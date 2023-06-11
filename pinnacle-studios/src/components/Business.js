@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 const business = ({isVisible}) => {
   return (
-    <section className={`business-section ${isVisible ? 'fade-in' : ''}`}>
+    <section id='business' className={`business-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="business-container">
             <div className="business-content">
                 <div className="column-left">
