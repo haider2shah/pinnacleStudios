@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom';
 
 const aboutUs = ({isVisible}) => {
   return (
-    <section id='aboutus' className={`aboutUs-section ${isVisible ? 'fade-in' : ''}`}>
-        <div className='aboutUs-container'>
+    <section className="aboutUs-section">
+        <section id='aboutus' className={`aboutUs-container ${isVisible ? 'fade-in' : ''}`}>
             <div className='aboutUs-content'>
                 <div className='column-left'>
 
@@ -31,7 +31,7 @@ const aboutUs = ({isVisible}) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
   );
 };
