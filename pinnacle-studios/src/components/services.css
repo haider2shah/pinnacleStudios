@@ -132,7 +132,7 @@
         background-color: #fff;
         color: #000;
         display: flex;
-        height: 143vh;
+        height: 170vh;
         justify-content: center;
         min-height: 420px;
         width: 100%;
@@ -144,13 +144,13 @@
         margin: 0;
         min-height: 500px;
         padding: 0;
-        height: 124vh;
+        height: 155vh;
     }
 
     .services-content {
         align-items: center;
         display: flex;
-        height: 100vh;
+        height: 117vh;
         justify-content: space-between;
         position: relative;
         width: 100vw;
@@ -159,10 +159,11 @@
 
     .services-content .left-column {
         width: 100%;
+        height: 100%;
     }
 
     .services-content .left-column .figure{
-        height: 154%;
+        height: 188%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -172,8 +173,6 @@
     .services-content .figure img {
         height: 87vw;
         width: 74vw;
-        position: absolute;
-        top: 67vh;
     }
 
     .services-content .right-column {
@@ -210,8 +209,8 @@
 
     .services-content .services ul {
         list-style: none;
-        padding: 0 0 0 1vw;
-        width: 88vw;
+        padding: 0;
+        width: 87vw;
         height: 100%;
     }
 
