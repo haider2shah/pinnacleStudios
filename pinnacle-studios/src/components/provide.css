@@ -187,6 +187,7 @@
         font-weight: 600;
         line-height: 124.5%;
         margin-top: 3vh;
+        width: fit-content;
     }
 
     .provide-content button {

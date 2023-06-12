@@ -17,13 +17,13 @@ const aboutUs = ({isVisible}) => {
                         Inconsistent branding is one of the major reasons brands fail to achieve its potential.
                          Developing a brand strategy, and a brand identity system can solve this problem.
                     </p>
-                    <div className="button-container">
-                        <Link to="/contactuspage">
-                            <button className='contact-us'>
-                                Contact Now
-                            </button>
-                        </Link>
-                    </div>
+                    
+                    <Link to="/contactuspage">
+                        <button className='contact-us'>
+                            Contact Now
+                        </button>
+                    </Link>
+                    
                 </div>
                 <div className='column-right'>
                     <div className="figure">
