@@ -31,7 +31,8 @@
     min-height: 500px;
 }
 
-.provide-content h1 {
+
+.provideHeading{
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;

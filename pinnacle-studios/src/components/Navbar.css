@@ -374,8 +374,22 @@ a {
 
 @media (max-width: 750px) {
 
-    .navbar .logo{
+    .navbar .logo {
         width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .navbar-width {
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 -5vw 7vw 0 gray;
+        display: flex;
+        height: 8vh;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 0 7vw;
     }
 
     .navbar .logo a{

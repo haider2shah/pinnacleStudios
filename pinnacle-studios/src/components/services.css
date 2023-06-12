@@ -132,11 +132,12 @@
         background-color: #fff;
         color: #000;
         display: flex;
-        height: 120vh;
+        height: 133vh;
         justify-content: center;
         min-height: 420px;
         width: 100%;
         margin-top: 0;
+        margin-bottom: 10vw;
     }
 
     .services-container {
@@ -150,7 +151,7 @@
     .services-content {
         align-items: center;
         display: flex;
-        height: 118vh;
+        height: 160vh;
         justify-content: space-between;
         position: relative;
         width: 100vw;
@@ -158,12 +159,11 @@
     }
 
     .services-content .left-column {
-        height: 85%;
         height: 111%;
     }
 
     .services-content .left-column .figure{
-        height: 33%;
+        height: 39%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -263,9 +263,14 @@
 
     .right-column .fade-in-paragraph {
         font-size: 2.3vw;
-        margin: -1.6vw 0 5vw;
+        margin: -1.6vw 0 1vw;
         opacity: 0;
         text-align: left;
         transition: opacity 1s ease, margin 1s ease;
+    }
+
+    .right-column .fade-in-paragraph.show {
+        margin: -.5vw 0 5vw;
+        opacity: 1;
     }
 }

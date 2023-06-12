@@ -11,7 +11,7 @@ const provide = ({isVisible}) => {
     <section id='provide' className={`provide-section ${isVisible ? 'fade-in' : ''}`}>
         <div className="provide-container">
             <div className="provide-content">
-                <h1>In 4 Simple Steps, you can take a desicion that gets you peace of mind.</h1>
+                <h1 className='provideHeading'>In 4 Simple Steps, you can take a desicion that gets you peace of mind.</h1>
                 <div className="provide-icons">
                   <div className="icons">
                     <div className="icon" >
