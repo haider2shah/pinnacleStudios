@@ -371,3 +371,51 @@ a {
 .x-show:hover > .xSvg path{
     fill: white;
 }
+
+@media (max-width: 750px) {
+    .navbar .logo a{
+        color: #000;
+        font-family: Josefin Sans;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128px;
+        margin-left: auto;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .contactPlusNav .button-container button{
+        align-items: center;
+        display: flex;
+        font-size: 1.5vw;
+        height: 6.8vw;
+        justify-content: center;
+        top: 0;
+        width: 20vw;
+        left: -12vw;
+    }
+
+    .navbar-toggle{
+        background-color: initial;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 4.5vw;
+        justify-content: space-between;
+        left: 15.55vw;
+        padding: 0;
+        position: absolute;
+        top: -.8vw;
+        transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+        transition: transform .5s ease, -webkit-transform .5s ease;
+        width: 5.5vw;
+        z-index: 999;
+    }
+
+    .hamburger{
+        height: 0.9vw;
+    }
+}
