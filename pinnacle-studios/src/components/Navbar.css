@@ -399,7 +399,7 @@ a {
         font-style: normal;
         font-weight: 700;
         line-height: 128px;
-        margin-left: auto;
+        margin-left: 0;
         text-align: center;
         text-decoration: none;
     }

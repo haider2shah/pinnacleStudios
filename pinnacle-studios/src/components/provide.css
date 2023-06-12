@@ -111,3 +111,108 @@
     font-weight: 600;
 
 }
+
+
+@media (max-width: 750px) {
+    .provide-container,
+    .provide-section {
+        display: flex;
+        height: 160vh;
+        min-height: 500px;
+        width: 100%;
+    }
+
+    .provide-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        justify-content: center;
+        min-height: 500px;
+        position: relative;
+        width: 100%;
+    }
+
+    .provideHeading {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 7.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100.5%;
+        margin: 0;
+        text-align: center;
+        width: 88%;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .provide-icons {
+        display: flex;
+        justify-content: space-between;
+        padding: 5vw 0;
+        width: 55vw;
+        flex-direction: column;
+        position: absolute;
+        top: 29vh;
+        height: 101vh;
+    }
+
+    .icon,
+    .icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon {
+        background: #fff;
+        border-radius: 130px;
+        height: 23vw;
+        margin-bottom: 1vw;
+        width: 23vw;
+    }
+
+    .icon svg {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .icons h1 {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 124.5%;
+        margin-top: 3vh;
+    }
+
+    .provide-content button {
+        COLOR: #000;
+        align-items: center;
+        background: #fff;
+        border-radius: 8vw;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
+        display: flex;
+        font-family: Josefin Sans;
+        height: 9vw;
+        justify-content: center;
+        position: relative;
+        top: 98vh;
+        transition: all .4s ease-in;
+        width: 30vw;
+    }
+
+    .provide-content button h1 {
+        -webkit-text-fill-color: transparent;
+        background: linear-gradient(90deg, #044986 2.52%, #481c69 86.55%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 3vw;
+        font-weight: 200;
+        letter-spacing: .05vw;
+    }
+}

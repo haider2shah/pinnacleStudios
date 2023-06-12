@@ -131,15 +131,17 @@
     }
 
     .aboutUs-content .button-container {
-        display: flex;
-        justify-content: center;
         align-items: center;
+        display: flex;
         height: 13vh;
+        justify-content: center;
+        position: absolute;
+        top: 61vh;
     }
 
     .aboutUs-section button {
         height: 10vw;
-        top: 28vh;
+        top: 0vh;
         width: 29vw;
         font-size: 3vw;
         padding-top: 0.5vw;
