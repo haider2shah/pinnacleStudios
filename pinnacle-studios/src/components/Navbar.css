@@ -373,6 +373,11 @@ a {
 }
 
 @media (max-width: 750px) {
+
+    .navbar .logo{
+        width: 50%;
+    }
+
     .navbar .logo a{
         color: #000;
         font-family: Josefin Sans;
@@ -392,7 +397,7 @@ a {
         height: 6.8vw;
         justify-content: center;
         top: 0;
-        width: 20vw;
+        width: 21vw;
         left: -12vw;
         border-radius: 4vw;
     }
@@ -414,6 +419,10 @@ a {
         transition: transform .5s ease, -webkit-transform .5s ease;
         width: 5.5vw;
         z-index: 999;
+    }
+
+    .navbar-toggle:hover{
+        transform: translateY(-1vw);
     }
 
     .hamburger{
