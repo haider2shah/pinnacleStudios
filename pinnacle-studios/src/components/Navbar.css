@@ -375,7 +375,7 @@ a {
 @media (max-width: 750px) {
 
     .navbar .logo{
-        width: 50%;
+        width: 60vw;
     }
 
     .navbar .logo a{

@@ -210,17 +210,17 @@ h5 {
 
     .headingSvg{
         height: 33vw;
-        width: 75vw;
         position: absolute;
         top: 25vh;
+        width: 75vw;
     }
 
     .Hero-content h3 {
         color: #3d3b3b;
         font-size: 5.4vw;
         font-weight: 700;
-        top: 0vh;
-        width: 67%;
+        top: 2vh;
+        width: 76%;
     }
 
     .Hero-content button {
@@ -232,7 +232,7 @@ h5 {
         font-size: 3.4vw;
         height: 11.8vw;
         padding-top: 0.5vh;
-        top: 5vh;
+        top: 9vh;
         transition: -webkit-transform .4s ease-in;
         transition: transform .4s ease-in;
         transition: transform .4s ease-in, -webkit-transform .4s ease-in;
@@ -249,14 +249,14 @@ h5 {
         line-height: 124.5%;
         margin: 0;
         padding: 0;
-        top: 12vh;
+        top: 16vh;
     }
 
     .Hero-container .arrowSvg{
         height: 17vw;
         left: 40vw;
         position: absolute;
-        top: 77.2vh;
+        top: 81.2vh;
         width: 19vw;
         transform: rotate(45deg);
     }
