@@ -28,6 +28,10 @@
     width: 50%;
     width: 50%;
     padding: 0vw 0vw 0vw 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .aboutUs-content .column-right {
@@ -140,12 +144,12 @@
     }
 
     .aboutUs-section button {
-        height: 10vw;
-        top: 0vh;
-        width: 29vw;
-        font-size: 3vw;
-        padding-top: 0.5vw;
         border-radius: 12vw;
+        font-size: 3vw;
+        height: 10vw;
+        padding-top: .5vw;
+        width: 29vw;
+        top: 27vh;
     }
 
     .aboutUs-content .column-right {
@@ -163,9 +167,9 @@
 
 
     .aboutUs-section svg {
-        width: 82vw;
-        height: 73%;
+        height: 40%;
         position: absolute;
-        top: 50vh;
+        top: 73vh;
+        width: 82vw;
     }
 }
