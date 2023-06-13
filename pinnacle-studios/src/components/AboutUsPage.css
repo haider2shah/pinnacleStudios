@@ -206,4 +206,210 @@
     width: 41vw;
 }
 
+.aboutUsPage-container2{
+    margin: auto;
+    width: 100%;
+}
 
+@media (max-width: 850px) {
+    .aboutUsPage-section {
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        min-height: 420px;
+        width: 100%;
+    }
+
+    .aboutUsPage-container {
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        background: linear-gradient(180deg, #034a87 10.32%, #481c69 82.09%);
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        min-height: 500px;
+        padding: 0;
+    }
+
+    .aboutUsPage-content1 {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 92vh;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+    .aboutUsPage-content1 .left-column {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        justify-content: space-evenly;
+        padding: 0;
+        width: 100%;
+    }
+
+    .aboutUsPage-content1 .left-column .heading {
+        width: 84%;
+    }
+
+    .aboutUsPage-content1 .left-column h1 {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 3em;
+        font-weight: 1000;
+        margin: 0;
+        text-align: start;
+        width: 100%;
+    }
+
+    .aboutUsPage-content1 .left-column .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 84%;
+    }
+
+    .aboutUsPage-content1 .left-column #one {
+        margin: 0vw 0 3vw;
+    }
+
+    .aboutUsPage-content1 .left-column p {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: .7em;
+        font-style: normal;
+        line-height: 164%;
+        text-align: start;
+    }
+
+    .aboutUsPage-content1 .left-column #two {
+        margin-bottom: 3vw;
+    }
+
+    .aboutUsPage-content1 .right-column {
+        align-items: flex-end;
+        display: flex;
+        height: 45%;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .aboutUsPage-content1 .right-column .figure{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutUsPage-content1 .right-column img {
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .aboutUsPage-container2{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .aboutUsPage-content2 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .aboutUsPage-content2 .top-side {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutUsPage-content2 .top-side h1 {
+        color: #3d3b3b;
+        font-family: Josefin Sans;
+        font-size: 5.5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 124.5%;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 11vw;
+        margin-bottom: 4vw;
+    }
+
+    .aboutUsPage-content2 .top-side p {
+        color: #3d3b3b;
+        font-family: Josefin Sans;
+        font-size: 3.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 138.5%;
+        margin: 0;
+        text-align: center;
+        width: 84%;
+    }
+
+    .aboutUsPage-content2 .bot-side {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 5vw;
+    }
+
+    .aboutUsPage-content2 .bot-side .sections {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 4vw 0vw;
+    }
+
+    .aboutUsPage-content2 .bot-side .sections .icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutUsPage-content2 .bot-side .sections svg {
+        width: 19vw;
+        height: fit-content;
+    }
+
+    .aboutUsPage-content2 .bot-side .sections h1 {
+        color: #3d3b3b;
+        font-family: Josefin Sans;
+        font-size: .9em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 124.5%;
+        margin: 5vw 0 0;
+    }
+
+    .aboutUsPage-content2 .bot-side .sections p {
+        color: #3d3b3b;
+        font-family: Josefin Sans;
+        font-size: .8em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 138.5%;
+        margin-top: 1.5vw;
+        text-align: center;
+        width: 65%;
+    }
+}

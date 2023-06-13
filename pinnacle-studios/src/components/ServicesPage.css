@@ -220,3 +220,108 @@
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+
+@media (max-width: 850px) {
+    .servicesPage-section{
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        min-height: 420px;
+        width: 100%;
+    }
+
+    .servicesPage-container {
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        background: linear-gradient(180deg, #034a87 10.32%, #481c69 82.09%);
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        min-height: 500px;
+        padding: 0;
+    }
+
+    .servicesPage-content1 {
+        flex-wrap: nowrap;
+        min-height: 500px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 92vh;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+
+    .servicesPage-content1 .left-column {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        justify-content: space-evenly;
+        padding: 0;
+        width: 100%;
+    }
+
+    .servicesPage-content1 .left-column .heading {
+        width: 84%;
+    }
+
+    .servicesPage-content1 .left-column h1 {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 3em;
+        font-weight: 1000;
+        margin: 0;
+        text-align: start;
+        width: 100%;
+    }
+
+    .servicesPage-content1 .left-column .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 84%;
+    }
+
+    .servicesPage-content1 .left-column #services-one {
+        margin: 3vw 0 2vw;
+    }
+
+    .servicesPage-content1 .left-column p {
+        font-weight: 400;
+        width: 95%;
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: .7em;
+        font-style: normal;
+        line-height: 164%;
+        text-align: start;
+    }
+
+    .servicesPage-content1 .right-column {
+        align-items: flex-end;
+        display: flex;
+        height: 45%;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .servicesPage-content1 .right-column .figure{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicesPage-content1 .right-column img {
+        width: 71vw;
+        height: fit-content;
+    }
+}

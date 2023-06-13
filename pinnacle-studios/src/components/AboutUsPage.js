@@ -51,7 +51,7 @@ const AboutUsPage = () => {
             </section>
  
             <section className="aboutUsPage-section">
-                <div className="aboutUsPage-container">
+                <div className="aboutUsPage-container2">
                     <div className="aboutUsPage-content2">
                         <div className="top-side">
                             <h1>Why Pinnacle Studios?</h1>
