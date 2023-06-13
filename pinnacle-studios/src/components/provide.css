@@ -113,7 +113,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .provide-container,
     .provide-section {
         display: flex;
@@ -216,4 +216,8 @@
         font-weight: 200;
         letter-spacing: .05vw;
     }
+}
+
+@media (min-width: 450) {
+    
 }

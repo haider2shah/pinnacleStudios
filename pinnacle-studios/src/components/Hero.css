@@ -202,7 +202,7 @@ h5 {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
     .Hero-section{
         overflow: hidden;
@@ -276,4 +276,8 @@ h5 {
         position: absolute;
         width: 100%;
     }
+}
+
+@media (min-width: 450) {
+    
 }

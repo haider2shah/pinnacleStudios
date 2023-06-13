@@ -372,7 +372,7 @@ a {
     fill: white;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
     .navbar .logo {
         width: 60vw;
@@ -442,4 +442,9 @@ a {
     .hamburger{
         height: 0.9vw;
     }
+}
+
+
+@media (min-width: 450) {
+    
 }

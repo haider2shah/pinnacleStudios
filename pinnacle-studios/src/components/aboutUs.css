@@ -74,7 +74,7 @@
     height: 67vh;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .aboutUs-section{
         align-items: center;
         background-color: #fff;
@@ -172,4 +172,9 @@
         top: 73vh;
         width: 82vw;
     }
+}
+
+
+@media (min-width: 450) {
+    
 }

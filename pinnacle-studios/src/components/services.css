@@ -126,7 +126,7 @@
     margin: -.5vw 0px 1vw 0px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .services-section{
         align-items: center;
         background-color: #fff;
@@ -273,4 +273,8 @@
         margin: -.5vw 0 5vw;
         opacity: 1;
     }
+}
+
+@media (min-width: 450) {
+    
 }
