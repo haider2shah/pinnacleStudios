@@ -209,10 +209,22 @@ h5 {
     }
 
     .headingSvg{
-        height: 33vw;
-        position: absolute;
-        top: 25vh;
-        width: 75vw;
+        height: 27vw;
+        width: 67vw;
+    }
+
+    .Hero-content h3 {
+        color: #3d3b3b;
+        font-size: 1.1em;
+        font-weight: 700;
+        width: 76%;
+        margin: 0;
+    }
+
+    .Hero-content {
+        flex-direction: column;
+        margin-top: 0;
+        height: 81vh;
     }
 
     .Hero-content h3 {
@@ -229,15 +241,14 @@ h5 {
         border: none;
         border-radius: 7vw;
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
-        font-size: 3.4vw;
-        height: 11.8vw;
-        padding-top: 0.5vh;
-        top: 9vh;
+        font-size: 3vw;
+        font-weight: 200;
+        height: 8.8vw;
+        padding-top: .5vh;
         transition: -webkit-transform .4s ease-in;
         transition: transform .4s ease-in;
         transition: transform .4s ease-in, -webkit-transform .4s ease-in;
-        width: 34vw;
-        font-weight: 200;
+        width: 28vw;
     }
 
     .contact-us:hover{
@@ -247,25 +258,21 @@ h5 {
     .Hero-content h5{
         color: #000;
         cursor: pointer;
-        font-size: 4.2vw;
+        font-size: 3.2vw;
         font-style: normal;
         font-weight: 400;
         line-height: 124.5%;
         margin: 0;
         padding: 0;
-        top: 16vh;
     }
 
     .Hero-container .arrowSvg{
         height: 17vw;
-        left: 40vw;
-        position: absolute;
-        top: 81.2vh;
-        width: 19vw;
+        width: 17vw;
         transform: rotate(45deg);
     }
 
-    .Hero-container{
+    .Hero-container {
         align-items: center;
         display: flex;
         height: 100vh;
@@ -276,8 +283,26 @@ h5 {
         position: absolute;
         width: 100%;
     }
+
+    .Hero-content,
+    .Hero-section {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: space-evenly;
+        min-height: 500px;
+    }
 }
 
 @media (min-width: 450) {
-    
+    .Hero-content {
+        flex-direction: column;
+        margin-top: 0;
+        height: 63vh;
+    }
+
+    .headingSvg {
+        height: 29vw;
+        width: 78vw;
+    }
 }

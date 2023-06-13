@@ -132,12 +132,12 @@
         background-color: #fff;
         color: #000;
         display: flex;
-        height: 133vh;
+        height: fit-content;
         justify-content: center;
+        margin-bottom: 10vw;
+        margin-top: 11vw;
         min-height: 420px;
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 10vw;
     }
 
     .services-container {
@@ -145,29 +145,28 @@
         margin: 0;
         min-height: 500px;
         padding: 0;
-        height: 118vh;
+        height: 100%;
     }
 
     .services-content {
         align-items: center;
         display: flex;
-        height: 160vh;
-        justify-content: space-between;
-        position: relative;
+        height: 196vw;
+        justify-content: space-evenly;
         width: 100vw;
         flex-direction: column-reverse;
     }
 
     .services-content .left-column {
-        height: 111%;
+        height: 50%;
     }
 
     .services-content .left-column .figure{
-        height: 39%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
         align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
     }
 
     .services-content .figure img {
@@ -176,12 +175,12 @@
     }
 
     .services-content .right-column {
-        height: 183vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
         align-items: center;
+        display: flex;
         flex-direction: column;
+        height: 50%;
+        justify-content: center;
+        width: 100%;
     }
 
     .main-heading {
@@ -189,23 +188,19 @@
         font-family: JOSEFIN SANS;
         font-size: 7.6vw;
         line-height: 8.5vw;
-        text-align: left;
-        width: 90%;
         margin: 0;
-        position: absolute;
-        top: -2.4vh;
-        left: 6.3vw;
         padding: 0;
+        text-align: left;
+        width: 86%;
     }
 
     .services-content .services {
-        height: 27%;
-        width: 100%;
-        position: absolute;
-        top: 22vh;
-        display: flex;
         align-items: center;
+        display: flex;
+        height: 100%;
         justify-content: center;
+        width: 100%;
+        margin-top: 8vw;
     }
 
     .services-content .services ul {
@@ -273,8 +268,4 @@
         margin: -.5vw 0 5vw;
         opacity: 1;
     }
-}
-
-@media (min-width: 450) {
-    
 }
