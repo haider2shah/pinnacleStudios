@@ -10,6 +10,9 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .conclusion-content {
@@ -17,17 +20,15 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 100vh;
-    justify-content: space-between;
-    position: relative;
+    height: 90vh;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .conclusion-content p {
-    margin-top: 16vh;
     color: white;
     font-family: 'Josefin Sans';
-    width: 80%;
+    width: 84%;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -36,30 +37,32 @@
 }
 
 .conclusion-content button {
-    color: #000;
     background: #fff;
     border-radius: 3vw;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
+    color: #000;
     font-family: Josefin Sans;
     font-size: 1.3vw;
     height: 4vw;
-    position: relative;
-    top: -41vh;
     transition: all .4s ease-in;
     width: 13vw;
+    top: 0;
 }
 
 .conclusion-content button h1 {
-    font-size: 1.3vw;
-    color: black;
-    font-weight: 500;
-    font-family: 'Josefin Sans';
+    color: #000;
+    font-family: Josefin Sans;
     margin: 0;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #044986 2.52%, #481c69 86.55%);
+    background-clip: border-box;
+    background-clip: text;
+    font-size: 1.2vw;
+    font-weight: 200;
+    letter-spacing: .05vw;
 }
 
 .conclusion-content .BrandName {
-    position: absolute;
-    top: 67%;
     font-size: 1.2vw;
     color: white;
     font-weight: 500;
@@ -68,8 +71,6 @@
 }
 
 .conclusion-container h2 {
-    position: absolute;
-    top: 74%;
     font-size: 1.2vw;
     color: white;
     font-weight: 500;
@@ -78,7 +79,8 @@
 }
 
 .conclusionHeadings{
-
+    height: fit-content;
+    width: fit-content; 
 }
 
 @media (max-width: 850px) {
@@ -120,7 +122,6 @@
     }
 
     .conclusion-content button {
-        font-size: 1.3vw;
         COLOR: #000;
         align-items: center;
         background: #fff;
@@ -128,10 +129,12 @@
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
         display: flex;
         font-family: Josefin Sans;
+        font-size: 1.3vw;
         height: 8vw;
         justify-content: center;
         transition: all .4s ease-in;
         width: 28vw;
+        top: 0;
     }
 
     .conclusion-content button h1 {
@@ -146,5 +149,18 @@
         font-weight: 200;
         letter-spacing: .05vw;
         padding-top: .5vw;
+    }
+
+    .conclusion-container h2,
+    .conclusion-content .BrandName {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 3.2vw;
+        font-weight: 500;
+    }
+
+    .conclusionHeadings {
+        height: fit-content;
+        width: fit-content;
     }
 }

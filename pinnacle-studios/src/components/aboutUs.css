@@ -144,6 +144,7 @@
         height: 10vw;
         padding-top: .5vw;
         width: 29vw;
+        top: 0;
     }
 
     .aboutUs-content .column-right {
