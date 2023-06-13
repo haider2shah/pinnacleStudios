@@ -329,6 +329,7 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         width: 100%;
+        height: 274vw;
     }
 
     .aboutUsPage-content2 .top-side {
@@ -378,6 +379,7 @@
         flex-direction: column;
         justify-content: center;
         margin: 4vw 0vw;
+        height: fit-content;
     }
 
     .aboutUsPage-content2 .bot-side .sections .icons {
