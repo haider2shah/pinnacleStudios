@@ -80,11 +80,13 @@
         background-color: #fff;
         color: #000;
         display: flex;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         justify-content: center;
+        margin-top: 11vw;
         min-height: 500px;
         width: 100%;
-        margin-top: 11vw;
     }
 
     .aboutUs-content {
@@ -100,6 +102,7 @@
     .aboutUs-container {
         margin: 0;
         height: 100%;
+        display: flex;
     }
 
     .aboutUs-content .column-left {
@@ -121,8 +124,6 @@
         width: 86vw;
         font-weight: 1000;
         margin: 0;
-        position: absolute;
-        top: 11vh;
     }
 
     .aboutUs-section p {
@@ -134,9 +135,7 @@
         padding-bottom: 5vw;
         text-align: left;
         width: 86vw;
-        position: absolute;
         margin: 0;
-        top: 33.8vh;
     }
 
     .aboutUs-section button {
@@ -145,7 +144,6 @@
         height: 10vw;
         padding-top: .5vw;
         width: 29vw;
-        position: inherit;
     }
 
     .aboutUs-content .column-right {
@@ -163,7 +161,7 @@
 
 
     .aboutUs-section svg {
-        height: 40%;
+        height: 100%;
         width: 82vw;
     }
 }

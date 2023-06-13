@@ -20,8 +20,10 @@ const conclusion = ({isVisible}) => {
                     <h1>Contact Now</h1>
                   </button>
                 </Link>
-                <h1 className='BrandName'>PINNACLE STUDIOS</h1>
-                <h2>A design studio for disruptive entrepreneurs. </h2>
+                <div className="conclusionHeadings">
+                  <h1 className='BrandName'>PINNACLE STUDIOS</h1>
+                  <h2>A design studio for disruptive entrepreneurs. </h2>
+                </div>
             </div>
         </div>
     </section>
