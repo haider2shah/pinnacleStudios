@@ -415,4 +415,8 @@
         text-align: center;
         width: 65%;
     }
+
+    .aboutUsPage-content2 .bot-side .sections .icons {
+        height: 14vw;
+    }
 }
