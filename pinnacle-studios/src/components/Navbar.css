@@ -459,9 +459,10 @@ a {
         background: white;
         z-index: 999;
         margin-top: 8vh;
+        opacity: 1;
     }
 
-    .navbar-hide .left, .navbar-hide .border, .navBottomRightHeading{
+    .left, .border, .navBottomRightHeading{
         display: none;
     }
 
@@ -494,12 +495,14 @@ a {
         justify-content: center;
         background: linear-gradient(180deg, #044986 2.52%, #481c69 86.55%);
         opacity: 1;
+        padding: 0;
     }
 
     .xSVGhidden {
         opacity: 0;
         height: 0;
         width: 0;
+        display: block;
     }
 
     .xSvg path{
@@ -518,6 +521,9 @@ a {
     .navbar-show .right {
         height: 89%;
         width: 100%;
+        background-color: inherit;
+        transition: clip-path 2s cubic-bezier(.45, .05, .55, .95), -webkit-clip-path 2s cubic-bezier(.45, .05, .55, .95);
+        clip-path: none;
     }
 
     .navbar-show .right ul {
@@ -528,6 +534,10 @@ a {
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+
+    .navbar-show ul:first-child{
+        border-top: 1px solid white;
     }
 
 
@@ -558,27 +568,32 @@ a {
         justify-content: center;
         align-items: center;
         height: 0;
+        position: initial;
     }
 
     .navbar-show .right li:first-child a {
         height: calc(100% - 3vw);
         margin: 0;
         width: 100%;
+        padding: 0;
     }
 
     .navbar-show .right li:nth-child(2) a {
         height: 0;
         width: 100%;
+        padding: 0;
     }
 
     .navbar-show .right li:nth-child(3) a {
         height: calc(100% - 3vw);
         width: 100%;
+        padding: 0;
     }
 
     .navbar-show .right li:nth-child(4) a {
         height: calc(100% - 3vw);
         width: 100%;
+        padding: 0;
     }
 
 
