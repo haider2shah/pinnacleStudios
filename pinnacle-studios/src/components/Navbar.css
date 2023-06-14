@@ -551,7 +551,6 @@ a {
     .navbar-show li {
         border-bottom: 1px solid #fff;
         display: flex;
-        height: 20%;
         list-style: none;
         position: relative;
         text-align: center;
