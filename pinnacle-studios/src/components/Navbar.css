@@ -509,21 +509,13 @@ a {
         fill: white
     }
 
-    .x-show .xSvg {
-        height: 7vw;
-        width: 7vw;
-        position: absolute;
-        top: 9vw;
-        left: 30vw;
-        transition: opacity 2s cubic-bezier(.6, .04, .98, .34);
-    }
-
     .navbar-show .right {
         height: 89%;
         width: 100%;
         background-color: inherit;
         transition: clip-path 2s cubic-bezier(.45, .05, .55, .95), -webkit-clip-path 2s cubic-bezier(.45, .05, .55, .95);
         clip-path: none;
+        position: initial;
     }
 
     .navbar-show .right ul {
@@ -538,6 +530,7 @@ a {
 
     .navbar-show ul:first-child{
         border-top: 1px solid white;
+        transition: border-top 2s cubic-bezier(.95, .05, .8, .04);
     }
 
 
@@ -548,7 +541,7 @@ a {
         list-style: none;
         position: relative;
         text-align: center;
-        transition: border-bottom 2s cubic-bezier(.95, .05, .8, .04), border-top 2s cubic-bezier(.95, .05, .8, .04);
+        transition: border-bottom 2s cubic-bezier(.95, .05, .8, .04);
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -594,6 +587,41 @@ a {
         height: calc(100% - 3vw);
         width: 100%;
         padding: 0;
+    }
+
+
+    .openNav {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 136%;
+    }
+
+    .x-show {
+        background-color: initial;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        padding: 0;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        align-items: center;
+        top: 0;
+    }
+
+    .x-show .xSvg {
+        height: 7vw;
+        transition: opacity 2s cubic-bezier(.6, .04, .98, .34);
+        width: 7vw;
     }
 
 
