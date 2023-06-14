@@ -622,6 +622,7 @@ a {
         height: 7vw;
         transition: opacity 2s cubic-bezier(.6, .04, .98, .34);
         width: 7vw;
+        position: initial;
     }
 
     .navbar-show .navBottomRightHeading{
