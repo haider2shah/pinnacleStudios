@@ -37,16 +37,16 @@ const Navbar = ({ className }) => {
     <nav className="navbar">
       <div className={`navbar-width ${className}`}>
         <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
-        <div className='contactPlusNav'>
+        <div className={`${isOpen ? 'openNav' : 'contactPlusNav'}`}>
           <div className='button-container'>
+            
             <Link to="/contactuspage">
               <button className='contact-us'>
                 <h1>Contact Now</h1>
               </button>
             </Link>
           </div>
-          
-          <button className='navbar-toggle'
+          <button className='navbar-toggle' 
           onClick={toggleNavbar}>
               <span className="hamburger"></span>
               <span className="hamburger"></span>
@@ -62,13 +62,12 @@ const Navbar = ({ className }) => {
           </div>
           <div className="right">
             <ul >
-              <li><Link to="/" className="navbar-link">
-                Home
-              </Link>
-              <button className='x-show'>
-                  <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
-              </button>
-              </li>
+              <div className="closePlusLink">
+                <li><Link to="/" className="navbar-link">
+                  Home
+                </Link></li>
+                <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
+              </div>
               <li><Link to="/aboutuspage" className="navbar-link">
                 About us
               </Link></li>
