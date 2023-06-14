@@ -66,7 +66,9 @@ const Navbar = ({ className }) => {
                 <li><Link to="/" className="navbar-link">
                   Home
                 </Link></li>
-                <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
+                <div className="x-show">
+                  <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
+                </div>
               </div>
               <li><Link to="/aboutuspage" className="navbar-link">
                 About us

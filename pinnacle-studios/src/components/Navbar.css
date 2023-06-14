@@ -85,11 +85,6 @@ nav {
     transform: translateY(0vw);
 }
 
-
-.x-show .hamburger {
-    width: 0;
-}
-
 .navbar-hide {
     height: 0;
     opacity: 0;
@@ -240,6 +235,13 @@ a {
     border-right: 1px solid black;
 }
 
+.closePlusLink li{
+    height: 100%;
+    position: initial;
+    width: 87.5vw;
+    text-align: start;
+}
+
 .navbar-show .right li:nth-child(2) a{
     padding-left: 24vw;
     padding-top: 2.8vw;
@@ -369,6 +371,17 @@ a {
 
 .x-show:hover > .xSvg path{
     fill: white;
+}
+
+.closePlusLink{
+    border-bottom: 1px solid #000;
+    display: flex;
+    height: 20%;
+    list-style: none;
+    position: relative;
+    text-align: start;
+    transition: border-bottom 1s ease;
+    width: 100%;
 }
 
 @media (max-width: 850px) {
