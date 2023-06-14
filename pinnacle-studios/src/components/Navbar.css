@@ -89,7 +89,7 @@ nav {
 }
 
 .callToAction {
-    height: 10.4vw;
+    height: 10.5vw;
     width: 100%;
     position: absolute;
     top: 0;
@@ -241,11 +241,11 @@ a {
 
 
 .navbar-show .right li:nth-child(1) a {
-    width: 74.6vw;
-    padding-left: 14vw;
-    margin: 0;
     height: calc(100% - 3vw);
+    margin: 0;
+    padding-left: 14vw;
     padding-top: 3vw;
+    width: 73.7vw;
 }
 
 .navbar-show .right li:nth-child(2) a{
@@ -640,6 +640,12 @@ a {
         background: transparent;
     }
 
+    .callToAction {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
 
 }
 
