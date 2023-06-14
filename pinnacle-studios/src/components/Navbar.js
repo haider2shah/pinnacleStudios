@@ -47,7 +47,7 @@ const Navbar = ({ className }) => {
           </Link>
           </div>
           <div className={`${isOpen ? 'callToAction' : ''}`}>
-            <button className={`navbar-toggle ${(isOpen) ? 'x-show' : ''}`} 
+            <button className={`${(isOpen) ? 'x-show' : 'navbar-toggle'}`} 
             onClick={toggleNavbar}>
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
