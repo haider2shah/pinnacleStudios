@@ -351,4 +351,27 @@ input::placeholder{
         justify-content: space-between;
         width: 73.5vw;
     }
+
+    .App-header{
+        background-color: #fff;
+        font-size: calc(10px + 2vmin);
+        min-height: 0;
+    }
+
+    .form button {
+        COLOR: #fff;
+        background: linear-gradient(94.06deg, #034a87 10.32%, #481c69 82.09%);
+        border: 0;
+        border-radius: 3vw;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
+        font-family: Josefin Sans;
+        font-size: 1vw;
+        font-size: 1.5vw;
+        height: 6vw;
+        padding-top: .5vw;
+        position: absolute;
+        top: 87.5%;
+        transition: all .4s ease-in;
+        width: 22vw;
+    }
 }
