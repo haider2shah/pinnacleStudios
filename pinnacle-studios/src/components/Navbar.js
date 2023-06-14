@@ -66,7 +66,7 @@ const Navbar = ({ className }) => {
                 <li><Link to="/" className="navbar-link">
                   Home
                 </Link></li>
-                <div className="x-show">
+                <div className="x-show" onClick={toggleNavbar}>
                   <X className={`${(isOpen) ? 'xSvg' : 'xSVGhidden'}`}/>
                 </div>
               </div>
