@@ -223,3 +223,132 @@ input::placeholder{
     font-weight: 400;
     color: black;
 }
+
+
+@media (max-width: 850px) {
+    .ContactUsPage-section {
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        min-height: 500px;
+        width: 100%;
+    }
+
+    .gradient-bg {
+        align-items: center;
+        background: linear-gradient(180deg, #044986 2.52%, #481c69 86.55%);
+        display: flex;
+        flex-direction: column;
+        height: 76vw;
+        justify-content: center;
+    }
+
+    .gradient-bg h1 {
+        color: #fff;
+        font-family: Josefin sans;
+        font-size: 7vw;
+        margin: 0 0 6vw;
+        text-align: center;
+    }
+
+    .contact-info {
+        flex-direction: row;
+        justify-content: space-between;
+        top: 41vw;
+        width: 44%;
+    }
+
+    .email-info {
+        align-items: center;
+        display: flex;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        justify-content: space-between;
+        width: 47%;
+    }
+
+    .phone-info {
+        align-items: center;
+        display: flex;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        justify-content: space-between;
+        width: 37%;
+    }
+
+    .contact-info h1 {
+        color: #fff;
+        font-family: Josefin Sans;
+        font-size: 1.6vw;
+        font-weight: 200;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contact-info .icon {
+        align-items: center;
+        background: transparent;
+        border-radius: 130px;
+        display: flex;
+        height: 2vw;
+        justify-content: center;
+        margin: 0;
+        width: 2vw;
+    }
+
+    .white-bg {
+        background: #fff;
+        height: 55vw;
+        width: 100%;
+    }
+
+    .form,
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form-wrapper {
+        align-content: center;
+        background: #fff;
+        border-radius: 2vw;
+        box-shadow: 0 0 17px -4px gray;
+        left: 50vw;
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 87vw;
+        height: 72vw;
+        top: 85vw;
+    }
+
+    .contact-us-form-heading {
+        color: #3d3b3b;
+        font-family: Josefin Sans;
+        font-size: 3vw;
+        font-weight: 200;
+        justify-content: center;
+        left: 8vw;
+        text-align: center;
+        top: 8vw;
+        width: 83%;
+    }
+
+    .top-part {
+        margin-top: 11vw;
+    }
+
+    .bot-part,
+    .top-part {
+        align-items: center;
+        display: flex;
+        height: 7vw;
+        justify-content: space-between;
+        width: 73.5vw;
+    }
+}

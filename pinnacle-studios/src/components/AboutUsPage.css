@@ -371,6 +371,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         margin-top: 5vw;
+        height: 100%;
     }
 
     .aboutUsPage-content2 .bot-side .sections {
