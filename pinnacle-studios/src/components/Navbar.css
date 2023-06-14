@@ -85,12 +85,6 @@ nav {
     transform: translateY(0vw);
 }
 
-.callToAction {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-}
 
 .x-show .hamburger {
     width: 0;
@@ -222,10 +216,6 @@ a {
     z-index: 999;
 }
 
-.openNav .button-container{
-    z-index: 0;
-}
-
 .navbar-show .right ul{
     height: 100vh;
     width: 100%;
@@ -331,16 +321,7 @@ a {
     left: 0;
     height: 100vh;
 }
-.openNav{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    right: 0;
-    width: 21vw;
-    height: 20vh;
-    top: 0;
-}
+
 
 .navbar-hide .left {
     width: 0;
@@ -594,18 +575,6 @@ a {
         padding: 0;
     }
 
-
-    .openNav {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        left: 0;
-        position: absolute;
-        width: 100%;
-        top: 0;
-        height: 136%;
-    }
-
     .x-show {
         background-color: initial;
         border: none;
@@ -638,12 +607,6 @@ a {
         background: transparent;
     }
 
-    .callToAction {
-        height: 100%;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
 
 }
 
