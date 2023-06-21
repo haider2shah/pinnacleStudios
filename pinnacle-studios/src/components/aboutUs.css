@@ -35,7 +35,7 @@
 }
 
 .aboutUs-content .column-right {
-    width: 50%;
+    width: 70%;
 }
 
 .aboutUs-section h1 {
@@ -69,9 +69,9 @@
     justify-content: flex-start;
 }
 
-.aboutUs-section svg {
-    width: 50vw;
-    height: 67vh;
+.aboutUs-section img {
+    width: 40vw;
+    height: 60vh;
 }
 
 @media (max-width: 850px) {
@@ -161,8 +161,7 @@
     }
 
 
-    .aboutUs-section svg {
-        height: 100%;
-        width: 82vw;
+    .aboutUs-section img {
+        width: 8vw;
     }
 }
