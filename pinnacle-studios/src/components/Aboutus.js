@@ -1,7 +1,7 @@
 import './aboutUs.css';
 import React from 'react';
-import {ReactComponent as ReactLogo} from '../assets/about-us.svg';
 import {Link} from 'react-router-dom';
+import aboutImage from '../assets/about-us.png';
 
 const aboutUs = ({isVisible}) => {
   return (
@@ -27,7 +27,7 @@ const aboutUs = ({isVisible}) => {
                 </div>
                 <div className='column-right'>
                     <div className="figure">
-                        <ReactLogo />
+                        <img src={aboutImage} alt="showing aboutUs figure" />
                     </div>
                 </div>
             </div>
