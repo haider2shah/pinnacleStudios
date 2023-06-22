@@ -148,19 +148,18 @@
     }
 
     .extra-content .right-column {
-        height: 50%;
+        height: 100%;
     }
 
     .extra-content .right-column .figure{
         align-items: center;
         display: flex;
-        height: 100%;
         justify-content: center;
         width: 100%;
     }
 
     .extra-content .right-column svg {
-        width: 82vw;
-        height: 100%;
+        height: 77vw;
+        width: 84vw;
     }
 }

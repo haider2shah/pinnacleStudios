@@ -71,7 +71,6 @@
 
 .aboutUs-section img {
     width: 40vw;
-    height: 60vh;
 }
 
 @media (max-width: 850px) {
@@ -162,6 +161,6 @@
 
 
     .aboutUs-section img {
-        width: 8vw;
+        width: 84vw;
     }
 }
