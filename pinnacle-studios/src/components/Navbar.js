@@ -3,7 +3,7 @@ import './Navbar.css';
 import {Link} from 'react-router-dom';
 import { ReactComponent as Nbg} from '../assets/navBackground.svg';
 import { ReactComponent as X } from '../assets/xButton.svg';
-import { Swipeable } from 'react-swipeable';
+import SwipeableViews from 'react-swipeable-views';
 
 const Navbar = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = ({ className }) => {
   }
 
   return (
-    <Swipeable onSwipedUp={handleSwipeUp}>
+    <SwipeableViews onSwipedUp={handleSwipeUp}>
       <nav className="navbar">
         <div className={`navbar-width ${className}`}>
           <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
@@ -72,7 +72,7 @@ const Navbar = ({ className }) => {
           
         </div>
       </nav>
-    </Swipeable>
+    </SwipeableViews>
   );
 };
 
