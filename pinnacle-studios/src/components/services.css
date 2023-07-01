@@ -3,26 +3,28 @@
     background-color: #fff;
     color: #000;
     display: flex;
+    height: fit-content;
     justify-content: center;
-    width: 100%;
     min-height: 500px;
-    height: 100vh;
+    width: 100%;
+    margin-bottom: 5vw;
 }
 
 .services-container {
-    min-height: 500px;
-    margin: 0;
-    padding: 0;
     display: flex;
+    margin: 0;
+    min-height: 500px;
+    padding: 0;
+    height: fit-content;
 }
 
 .services-content {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
     position: relative;
+    width: 100vw;
 }
 
 .services-content .left-column {
@@ -32,8 +34,8 @@
 }
 
 .services-content .right-column {
+    height: fit-content;
     width: 50%;
-    height: 97vh;
 }
 
 .services-content .figure img {
@@ -109,7 +111,7 @@
     margin-top: 1vw;
 }
 
-.fade-in-paragraph.dmPara {
+.right-column .fade-in-paragraph.dmPara {
     margin: -1.6vw 0 1vw;
 }
 
