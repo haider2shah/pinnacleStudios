@@ -19,7 +19,7 @@ const Navbar = ({ className }) => {
   }
 
   return (
-    <Swipeable onSwipeUp={handleSwipeUp}>
+    <Swipeable onSwipedUp={handleSwipeUp}>
       <nav className="navbar">
         <div className={`navbar-width ${className}`}>
           <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
