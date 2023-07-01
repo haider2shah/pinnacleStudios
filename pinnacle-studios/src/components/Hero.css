@@ -11,7 +11,7 @@
 }
 
 .Hero-content{
-    height: 100vh;
+    height: 105vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,8 +104,8 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.8vw;
-    top: -5vw;
+    font-size: 1.6vw;
+    top: -4vw;
 
 
     color: #3D3B3B;
@@ -121,8 +121,9 @@ h5 {
     font-size: 1.2vw;
     line-height: 124.5%;
     cursor: pointer;
-    margin: 0;
     padding: 0;
+    margin:0;
+    
 
     color: #000000;
 }
@@ -137,7 +138,7 @@ h5 {
     COLOR: white;
     font-size: 1.4vw;
     font-family: 'Josefin Sans';
-    top: -6vh;
+    top: -4vh;
     padding-top: .4vw;
     position: relative;
     transition: transform 400ms ease-in;
@@ -181,8 +182,8 @@ h5 {
 }
 
 .headingSvg {
-    height: 27vw;
-    width: 67vw;
+    height: 26vw;
+    width: 58vw;
 }
 
 .fade-in {
