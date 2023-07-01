@@ -130,10 +130,10 @@
         display: flex;
         font-family: Josefin Sans;
         font-size: 1.3vw;
-        height: 8vw;
+        height: 10vw;
         justify-content: center;
         transition: all .4s ease-in;
-        width: 28vw;
+        width: 29vw;
         top: 0;
     }
 
@@ -146,7 +146,7 @@
         background-clip: border-box;
         background-clip: text;
         font-size: 3vw;
-        font-weight: 200;
+        font-weight: 800;
         letter-spacing: .05vw;
         padding-top: .5vw;
     }
