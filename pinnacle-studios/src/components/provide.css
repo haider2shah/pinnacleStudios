@@ -216,12 +216,17 @@
     .provide-content button h1 {
         -webkit-text-fill-color: transparent;
         background: linear-gradient(90deg, #044986 2.52%, #481c69 86.55%);
-        background-clip: border-box;
+        background-clip: initial;
         -webkit-background-clip: text;
         background-clip: text;
         font-size: 3vw;
         font-weight: 800;
         letter-spacing: .05vw;
+        margin: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

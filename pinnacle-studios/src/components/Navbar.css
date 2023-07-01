@@ -417,17 +417,31 @@ a {
         text-align: center;
         text-decoration: none;
     }
+    .contactPlusNav {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        left: 54vw;
+        position: absolute;
+        width: 45.6%;
+        height: 100%;
+    }
+
+    .contactPlusNav .button-container {
+        display: flex;
+        width: 70%;
+        z-index: 999;
+    }
 
     .contactPlusNav .button-container button{
         align-items: center;
+        border-radius: 4vw;
         display: flex;
         font-size: 1.8vw;
         height: 7.8vw;
         justify-content: center;
-        top: 0;
         width: 24vw;
-        left: -12vw;
-        border-radius: 4vw;
+        position: initial;
     }
 
     .contactPlusNav .button-container button h1 {
@@ -446,10 +460,10 @@ a {
         flex-direction: column;
         height: 4.5vw;
         justify-content: space-between;
-        left: 15.55vw;
+        left: 33.55vw;
         padding: 0;
         position: absolute;
-        top: -.8vw;
+        top: 6.2vw;
         transition: -webkit-transform .5s ease;
         transition: transform .5s ease;
         transition: transform .5s ease, -webkit-transform .5s ease;
