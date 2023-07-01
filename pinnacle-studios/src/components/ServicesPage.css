@@ -324,4 +324,42 @@
         width: 71vw;
         height: fit-content;
     }
+
+    .servicesPage-content2 .services .services-list h1 {
+        font-family: Josefin Sans;
+        font-size: 7vw;
+        margin-bottom: 0;
+    }
+
+    .servicesPage-content2 .services .services-list .list-item::after {
+        background: #000;
+        bottom: 6px;
+        content: "";
+        height: 0.3vw;
+        left: 0;
+        margin: 0vw auto;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+    .fade-in-paragraph {
+        font-size: 1.2vw;
+        margin: -3vw 0 2vw;
+        opacity: 0;
+        text-align: left;
+        transition: opacity .1s ease, margin .2s ease, font-size .2s ease;
+    }
+
+    .fade-in-paragraph.show {
+        margin: 4vw 0;
+        margin-bottom: 4vw;
+        opacity: 1;
+        font-size: 3vw;
+        margin-bottom: 8vw;
+    }
+
+    .pBtm{
+        margin-bottom: 0;
+    }
 }

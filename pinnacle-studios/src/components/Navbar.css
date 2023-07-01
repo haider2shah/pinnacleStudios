@@ -678,6 +678,11 @@ a {
         border: 0;
     }
 
+    .openNav .button-container {
+        z-index: 0;
+        display: none;
+    }
+
 
 }
 

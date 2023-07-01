@@ -148,7 +148,7 @@ const ServicesPage = () => {
                                     </li>
                                     <li className='list-item'>
                                         <h1>
-                                            BRANDING COLLATERAL
+                                            BRAND COLLATERAL
                                         </h1>
                                         <div style={{ pointerEvents: 'all' }} className={`arrow-button ${paragraph5 ? "rotate-arrow" : ""}`} onClick={togglePara5}>
                                             <ArrowLogo />
@@ -169,7 +169,7 @@ const ServicesPage = () => {
                                                 <li>Social media graphics</li>
                                                 <li>Email templates</li>
                                             </ul>
-                                            <p>and more</p>
+                                            <p className='pBtm'>and more</p>
                                         </div>
 
                                     </li>
