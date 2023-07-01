@@ -155,7 +155,7 @@ const ServicesPage = () => {
                                         </div>
                                         <div className={`fade-in-paragraph special-paragraph ${paragraph5 ? 'show' : ''}`}>
                                             <p >
-                                                We take a comprehensive approach to branding collateral design by utilizing the brand 
+                                                We take a comprehensive approach to brand collateral design by utilizing the brand 
                                                 strategy and identity that we design for each business. This ensures that the 
                                                 messaging and design of your branding collateral are consistent with your overall 
                                                 brand identity and resonate with your target audience. We design all kinds of branding 

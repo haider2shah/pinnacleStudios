@@ -349,7 +349,7 @@
         margin: -3vw 0 2vw;
         opacity: 0;
         text-align: left;
-        transition: opacity .1s ease, margin .2s ease, font-size .2s ease;
+        transition: opacity .1s ease, margin .2s ease;
     }
 
     .fade-in-paragraph.show {

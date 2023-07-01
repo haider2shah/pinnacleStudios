@@ -45,60 +45,64 @@ const Services = ({isVisible}) => {
                         </h1>
                         <div className="services">
                             <ul className='services-list'>
-                                <li className='list-item'>
+                                <li className='list-item' onClick={togglePara1}>
                                     
                                     <h1>
                                         Web Design and Development
                                     </h1>
-                                    <div className={`arrow-button ${paragraph1 ? "rotate-arrow" : ""}`} onClick={togglePara1}>
+                                    <div className={`arrow-button ${paragraph1 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
                                     <p className={`fade-in-paragraph ${paragraph1 ? 'show' : ''}`}>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorum.
+                                        Our core mission is to facilitate a strong connection between our clients and their customers 
+                                        through the development of research-based websites that cater to their target audience.
                                     </p>
                                 </li>
-                                <li className='list-item'>
+                                <li className='list-item' onClick={togglePara2}>
                                     <h1>
                                         Brand Strategy Design
                                     </h1>
-                                    <div className={`arrow-button ${paragraph2 ? "rotate-arrow" : ""}`} onClick={togglePara2}>
+                                    <div className={`arrow-button ${paragraph2 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
                                     <p className={`fade-in-paragraph ${paragraph2 ? 'show' : ''}`}>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorum.
+                                        A brand strategy is a comprehensive blueprint designed to assist in achieving your company's long-term objectives. 
+                                        It concentrates on the specifics of what, when, where, how, and to whom you deliver your brand's message.
                                     </p>
                                 </li>
-                                <li className='list-item'>
+                                <li className='list-item' onClick={togglePara3}>
                                     <h1>
                                         Brand Identity System Design
                                     </h1>
-                                    <div className={`arrow-button ${paragraph3 ? "rotate-arrow" : ""}`} onClick={togglePara3}>
+                                    <div className={`arrow-button ${paragraph3 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
                                     <p className={`fade-in-paragraph ${paragraph3 ? 'show' : ''}`}>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorum.
+                                        Brand identity is created when a brand's visual elements are aligned with the brand strategy. 
+                                        Once a brand is done designing its brand strategy, it is time to design the brand identity system.
                                     </p>
                                 </li>
-                                <li className='list-item'>
+                                <li className='list-item' onClick={togglePara4}>
                                     <h1>
                                         Digital Marketing
                                     </h1>
-                                    <div className={`arrow-button ${paragraph4 ? "rotate-arrow" : ""}`} onClick={togglePara4}>
+                                    <div className={`arrow-button ${paragraph4 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
                                     <p className={`fade-in-paragraph ${paragraph4 ? 'show' : ''}`}>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorum.
+                                        Our digital marketing services include brand strategy and identity development, 
+                                        which is crucial for creating a strong and recognizable brand presence in the digital world.
                                     </p>
                                 </li>
-                                <li className='list-item'>
+                                <li className='list-item' onClick={togglePara5}>
                                     <h1>
-                                        Branding Collateral Design
+                                        Brand Collateral Design
                                     </h1>
-                                    <div className={`arrow-button ${paragraph5 ? "rotate-arrow" : ""}`} onClick={togglePara5}>
+                                    <div className={`arrow-button ${paragraph5 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
                                     <p className={`fade-in-paragraph ${paragraph5 ? 'show' : ''}`}>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorum.
+                                        We take a comprehensive approach to brand collateral design by utilizing the brand strategy and identity that we design for each business. Which include business cards, brochures, flyers, etc.
                                     </p>
                                 </li>
                             </ul>
