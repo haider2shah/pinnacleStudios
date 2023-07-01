@@ -23,6 +23,10 @@ nav {
     padding-top: .5vw;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .navbar .logo a {
     color: #000;
     font-family: Josefin Sans;
@@ -421,11 +425,11 @@ a {
     .contactPlusNav .button-container button{
         align-items: center;
         display: flex;
-        font-size: 1.5vw;
-        height: 6.8vw;
+        font-size: 1.8vw;
+        height: 7.8vw;
         justify-content: center;
         top: 0;
-        width: 21vw;
+        width: 24vw;
         left: -12vw;
         border-radius: 4vw;
     }

@@ -13,49 +13,51 @@ const Navbar = ({ className }) => {
   };
 
   useEffect(() => {
+    const handleTouchStart = (event) => {
+      const touch = event.touches[0];
+      setInitialTouchPos(touch.clientY);
+    };
+
     const handleTouchMove = (event) => {
-      if (isOpen) {
-        event.preventDefault();
+      if (!initialTouchPos) return;
+
+      const touch = event.touches[0];
+      const distance = touch.clientY - initialTouchPos;
+
+      // Adjust the threshold value as per your needs
+      if (distance < -100) {
+        setIsOpen(false);
       }
     };
 
-    document.addEventListener('touchmove', handleTouchMove, {
-      passive: false,
-    });
+    const handleTouchEnd = () => {
+      setInitialTouchPos(null);
+    };
+
+    const handleBodyScroll = () => {
+      if (isOpen) {
+        document.body.classList.add('no-scroll');
+      } else {
+        document.body.classList.remove('no-scroll');
+      }
+    };
+
+    document.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchmove', handleTouchMove);
+    document.addEventListener('touchend', handleTouchEnd);
+    document.addEventListener('scroll', handleBodyScroll);
 
     return () => {
+      document.removeEventListener('touchstart', handleTouchStart);
       document.removeEventListener('touchmove', handleTouchMove);
+      document.removeEventListener('touchend', handleTouchEnd);
+      document.removeEventListener('scroll', handleBodyScroll);
     };
   }, [isOpen]);
 
-  const handleTouchStart = (event) => {
-  const touch = event.touches[0];
-    setInitialTouchPos(touch.clientY);
-  };
-
-  const handleTouchMove = (event) => {
-    if (!initialTouchPos) return;
-
-    const touch = event.touches[0];
-    const distance = touch.clientY - initialTouchPos;
-
-    // Adjust the threshold value as per your needs
-    if (distance < -100) {
-      setIsOpen(false);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    setInitialTouchPos(null);
-  };
-
   return (
     <nav className="navbar">
-      <div className={`navbar-width ${className}`} 
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}>
-        
+      <div className={`navbar-width ${className}`}>
         <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
         <div className={`${isOpen ? 'openNav' : 'contactPlusNav'}`}>
           <div className='button-container'>

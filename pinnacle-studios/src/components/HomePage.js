@@ -62,7 +62,7 @@ const HomePage = () => {
     <div className="App">
       <div className='App-header'>
         <Navbar/>
-        <Hero isVisible={isVisible.hero} />
+        <Hero />
         <Aboutus isVisible={isVisible.aboutus} />
         <Services isVisible={isVisible.services} />
         <Provide isVisible={isVisible.provide} />

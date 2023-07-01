@@ -227,7 +227,7 @@ h5 {
         justify-content: space-evenly;
         min-height: 500px;
         position: relative;
-        top: 18vw;
+        top: 7vw;
     }
 
     .Hero-content h3 {
@@ -244,7 +244,7 @@ h5 {
         border: none;
         border-radius: 7vw;
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         font-weight: 200;
         height: 11.8vw;
         padding-top: .5vh;
