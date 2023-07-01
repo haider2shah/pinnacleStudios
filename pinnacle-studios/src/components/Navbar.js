@@ -3,7 +3,7 @@ import './Navbar.css';
 import {Link} from 'react-router-dom';
 import { ReactComponent as Nbg} from '../assets/navBackground.svg';
 import { ReactComponent as X } from '../assets/xButton.svg';
-import SwipeableViews from 'react-swipeable-views';
+import { SwipeableViews } from 'react-swipeable-views';
 
 const Navbar = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
