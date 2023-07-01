@@ -299,6 +299,15 @@
         margin: -1.6vw 0 -11vw;
     }
 
+    
+    .right-column .fade-in-paragraph.bPara.show {
+        margin: -0.5vw 0 6vw;
+    }
+
+    .right-column .fade-in-paragraph.dmPara.show {
+        margin: -0.5vw 0 6vw;
+    }
+
 
     .right-column .fade-in-paragraph.dmPara {
         margin: -1.6vw 0 -7vw;
