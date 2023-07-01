@@ -6,40 +6,40 @@ import { ReactComponent as X } from '../assets/xButton.svg';
 
 const Navbar = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
-  // const [navScrollStyle, setNavScrollStyle] = useState(false);
+  const [initialTouchPos, setInitialTouchPos] = useState(null);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     const scrollThreshold = 20; // Define the scroll threshold in pixels
+  const handleTouchStart = (event) => {
+  const touch = event.touches[0];
+    setInitialTouchPos(touch.clientY);
+  };
 
-  //     if (scrollPosition > scrollThreshold) {
-  //       setNavScrollStyle(true);
-  //     } else {
-  //       setNavScrollStyle(false);
-  //     }
-  //   };
+  const handleTouchMove = (event) => {
+    if (!initialTouchPos) return;
 
-  //   window.addEventListener('scroll', handleScroll);
+    const touch = event.touches[0];
+    const distance = touch.clientY - initialTouchPos;
 
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  if (event.touches[0].clientY < 20) {
-    if(isOpen){
-      setIsOpen(false)
+    // Adjust the threshold value as per your needs
+    if (distance < -100) {
+      setIsOpen(false);
     }
-  }
+  };
+
+  const handleTouchEnd = () => {
+    setInitialTouchPos(null);
+  };
 
   return (
     <nav className="navbar">
-      <div className={`navbar-width ${className}`}>
+      <div className={`navbar-width ${className}`} 
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}>
+        
         <div className="logo"><Link to="/">PINNACLE STUDIOS</Link></div>
         <div className={`${isOpen ? 'openNav' : 'contactPlusNav'}`}>
           <div className='button-container'>
