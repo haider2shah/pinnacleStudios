@@ -295,12 +295,12 @@
         transition: opacity 2s cubic-bezier(.47, 0, .74, .71), margin 1s linear;
     }
 
-    .fade-in-paragraph.bPara {
+    .right-column .fade-in-paragraph.bPara {
         margin: -1.6vw 0 -11vw;
     }
 
 
-    .fade-in-paragraph.dmPara {
+    .right-column .fade-in-paragraph.dmPara {
         margin: -1.6vw 0 -7vw;
     }
 }
