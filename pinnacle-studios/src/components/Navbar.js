@@ -31,7 +31,11 @@ const Navbar = ({ className }) => {
   //   };
   // }, []);
 
-
+  if (event.touches[0].clientY < 20) {
+    if(isOpen){
+      setIsOpen(false)
+    }
+  }
 
   return (
     <nav className="navbar">
