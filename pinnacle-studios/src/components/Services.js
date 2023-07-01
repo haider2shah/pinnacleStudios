@@ -65,7 +65,7 @@ const Services = ({isVisible}) => {
                                     <div className={`arrow-button ${paragraph2 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
-                                    <p className={`fade-in-paragraph ${paragraph2 ? 'show' : ''}`}>
+                                    <p className={`fade-in-paragraph bPara ${paragraph2 ? 'show' : ''}`}>
                                         A brand strategy is a comprehensive blueprint designed to assist in achieving your company's long-term objectives. 
                                         It concentrates on the specifics of what, when, where, how, and to whom you deliver your brand's message.
                                     </p>
