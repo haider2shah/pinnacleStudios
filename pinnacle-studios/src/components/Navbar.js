@@ -12,6 +12,22 @@ const Navbar = ({ className }) => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleTouchMove = (event) => {
+      if (isOpen) {
+        event.preventDefault();
+      }
+    };
+
+    document.addEventListener('touchmove', handleTouchMove, {
+      passive: false,
+    });
+
+    return () => {
+      document.removeEventListener('touchmove', handleTouchMove);
+    };
+  }, [isOpen]);
+
   const handleTouchStart = (event) => {
   const touch = event.touches[0];
     setInitialTouchPos(touch.clientY);
