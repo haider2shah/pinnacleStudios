@@ -89,7 +89,7 @@ const Services = ({isVisible}) => {
                                     <div className={`arrow-button ${paragraph4 ? "rotate-arrow" : ""}`} >
                                         <ArrowLogo />
                                     </div>
-                                    <p className={`fade-in-paragraph ${paragraph4 ? 'show' : ''}`}>
+                                    <p className={`fade-in-paragraph dmPara ${paragraph4 ? 'show' : ''}`}>
                                         Our digital marketing services include brand strategy and identity development, 
                                         which is crucial for creating a strong and recognizable brand presence in the digital world.
                                     </p>

@@ -97,6 +97,7 @@
     line-height: 124.5%;
     color: #3D3B3B;
     margin: 0;
+    margin-top: 1vw;
 }
 
 .services-content .services li .arrow-button {
@@ -105,6 +106,17 @@
     height: 2vw;
     cursor: pointer;
     transition: all 1s ease;
+    margin-top: 1vw;
+}
+
+.dmPara{
+    margin: -1.6vw 0 0.5vw;
+    transition: opacity .5s ease, margin 1s ease;
+}
+
+.dmPara.show{
+    margin: 0.4vw 0 1.5vw;
+    transition: opacity 2s cubic-bezier(.47, 0, .74, .71), margin 1s linear;
 }
 
 .services-content .services li .rotate-arrow {
@@ -248,6 +260,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 124.5%;
+        margin: revert;
     }
 
     .services-content .services li .arrow-button {
