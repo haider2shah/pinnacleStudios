@@ -13,44 +13,27 @@ const Navbar = ({ className }) => {
   };
 
   useEffect(() => {
-    const handleTouchStart = (event) => {
-      const touch = event.touches[0];
-      setInitialTouchPos(touch.clientY);
-    };
-
     const handleTouchMove = (event) => {
-      if (!initialTouchPos) return;
-
-      const touch = event.touches[0];
-      const distance = touch.clientY - initialTouchPos;
-
-      // Adjust the threshold value as per your needs
-      if (distance < -100) {
-        setIsOpen(false);
+      if (isOpen) {
+        event.preventDefault();
       }
-    };
-
-    const handleTouchEnd = () => {
-      setInitialTouchPos(null);
     };
 
     const handleBodyScroll = () => {
       if (isOpen) {
-        document.body.classList.add('no-scroll');
+        document.body.style.overflow = 'hidden';
       } else {
-        document.body.classList.remove('no-scroll');
+        document.body.style.overflow = '';
       }
     };
 
-    document.addEventListener('touchstart', handleTouchStart);
-    document.addEventListener('touchmove', handleTouchMove);
-    document.addEventListener('touchend', handleTouchEnd);
+    document.addEventListener('touchmove', handleTouchMove, {
+      passive: false,
+    });
     document.addEventListener('scroll', handleBodyScroll);
 
     return () => {
-      document.removeEventListener('touchstart', handleTouchStart);
       document.removeEventListener('touchmove', handleTouchMove);
-      document.removeEventListener('touchend', handleTouchEnd);
       document.removeEventListener('scroll', handleBodyScroll);
     };
   }, [isOpen]);

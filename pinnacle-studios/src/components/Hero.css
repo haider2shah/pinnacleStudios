@@ -209,6 +209,8 @@ h5 {
     .headingSvg{
         height: fit-content;
         width: 82vw;
+        top: 9vw;
+        position: relative;
     }
 
     .Hero-content h3 {
